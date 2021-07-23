@@ -20,7 +20,7 @@
 **/
 
 #pragma once
-#include "catapult/utils/BitwiseEnum.h"
+#include "symbolSDK/core/utils/BitwiseEnum.h"
 #include <stdint.h>
 
 namespace catapult { namespace model {

@@ -21,7 +21,7 @@
 
 #pragma once
 #include "NodeInteractionResultCode.h"
-#include "catapult/model/NodeIdentity.h"
+#include "../model/NodeIdentity.h"
 
 namespace catapult { namespace ionet {
 

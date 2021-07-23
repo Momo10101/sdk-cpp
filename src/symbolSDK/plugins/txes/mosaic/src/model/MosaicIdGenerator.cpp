@@ -20,7 +20,7 @@
 **/
 
 #include "MosaicIdGenerator.h"
-#include "catapult/crypto/Hashes.h"
+#include "crypto/Hashes.h"
 
 namespace catapult { namespace model {
 

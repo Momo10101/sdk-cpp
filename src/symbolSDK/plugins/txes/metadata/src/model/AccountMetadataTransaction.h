@@ -22,8 +22,8 @@
 #pragma once
 #include "MetadataEntityType.h"
 #include "MetadataSharedTransaction.h"
-#include "catapult/model/ContainerTypes.h"
-#include "catapult/utils/ArraySet.h"
+#include "symbolSDK/core/model/ContainerTypes.h"
+#include "symbolSDK/core/utils/ArraySet.h"
 
 namespace catapult { namespace model {
 

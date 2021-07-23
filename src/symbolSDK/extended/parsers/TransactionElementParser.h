@@ -20,8 +20,8 @@
 **/
 
 #pragma once
-#include "catapult/model/Elements.h"
-#include "catapult/functions.h"
+#include "symbolSDK/core/model/Elements.h"
+#include "symbolSDK/functions.h"
 #include <vector>
 
 namespace catapult { namespace ionet { struct Packet; } }

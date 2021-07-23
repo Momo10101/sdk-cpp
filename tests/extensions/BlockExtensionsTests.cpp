@@ -19,17 +19,17 @@
 *** along with Catapult. If not, see <http://www.gnu.org/licenses/>.
 **/
 
-#include "src/extensions/BlockExtensions.h"
-#include "src/extensions/TransactionExtensions.h"
-#include "catapult/crypto/MerkleHashBuilder.h"
-#include "catapult/model/BlockUtils.h"
-#include "catapult/model/EntityHasher.h"
-#include "catapult/utils/HexParser.h"
-#include "tests/test/core/BlockTestUtils.h"
-#include "tests/test/core/mocks/MockTransactionPluginWithCustomBuffers.h"
-#include "tests/test/nodeps/KeyTestUtils.h"
-#include "tests/test/nodeps/TestConstants.h"
-#include "tests/TestHarness.h"
+#include "symbolSDK/extended/extensions/BlockExtensions.h"
+#include "symbolSDK/extended/extensions/TransactionExtensions.h"
+#include "symbolSDK/core/crypto/MerkleHashBuilder.h"
+#include "symbolSDK/core/model/BlockUtils.h"
+#include "symbolSDK/core/model/EntityHasher.h"
+#include "symbolSDK/core/utils/HexParser.h"
+#include "tests/shared/BlockTestUtils.h"
+#include "tests/shared/MockTransactionPluginWithCustomBuffers.h"
+#include "tests/shared/KeyTestUtils.h"
+#include "tests/shared/TestConstants.h"
+#include "tests/shared/TestHarness.h"
 
 namespace catapult { namespace extensions {
 

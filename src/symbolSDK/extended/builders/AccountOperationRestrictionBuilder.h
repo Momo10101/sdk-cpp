@@ -21,7 +21,7 @@
 
 #pragma once
 #include "TransactionBuilder.h"
-#include "plugins/txes/restriction_account/src/model/AccountOperationRestrictionTransaction.h"
+#include "symbolSDK/plugins/txes/restriction_account/src/model/AccountOperationRestrictionTransaction.h"
 #include <vector>
 
 namespace catapult { namespace builders {

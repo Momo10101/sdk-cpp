@@ -20,7 +20,7 @@
 **/
 
 #pragma once
-#include "catapult/types.h"
+#include "symbolSDK/types.h"
 #include <vector>
 
 namespace catapult { namespace crypto {

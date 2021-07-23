@@ -19,15 +19,15 @@
 *** along with Catapult. If not, see <http://www.gnu.org/licenses/>.
 **/
 
-#include "src/builders/AggregateTransactionBuilder.h"
-#include "catapult/crypto/Hashes.h"
-#include "catapult/crypto/MerkleHashBuilder.h"
-#include "catapult/crypto/Signer.h"
-#include "catapult/model/EntityHasher.h"
-#include "sdk/tests/builders/test/BuilderTestUtils.h"
-#include "tests/test/core/EntityTestUtils.h"
-#include "tests/test/core/mocks/MockTransaction.h"
-#include "tests/test/nodeps/KeyTestUtils.h"
+#include "symbolSDK/extended/builders/AggregateTransactionBuilder.h"
+#include "symbolSDK/core/crypto/Hashes.h"
+#include "symbolSDK/core/crypto/MerkleHashBuilder.h"
+#include "symbolSDK/core/crypto/Signer.h"
+#include "symbolSDK/core/model/EntityHasher.h"
+#include "test/BuilderTestUtils.h"
+#include "tests/shared/EntityTestUtils.h"
+#include "tests/shared/MockTransaction.h"
+#include "tests/shared/KeyTestUtils.h"
 
 namespace catapult { namespace builders {
 

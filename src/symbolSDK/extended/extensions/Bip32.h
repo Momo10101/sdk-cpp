@@ -20,7 +20,7 @@
 **/
 
 #pragma once
-#include "catapult/crypto/KeyPair.h"
+#include "symbolSDK/core/crypto/KeyPair.h"
 
 namespace catapult { namespace extensions {
 

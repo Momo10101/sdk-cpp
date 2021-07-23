@@ -21,7 +21,7 @@
 
 #pragma once
 #include "OpensslContexts.h"
-#include "catapult/types.h"
+#include "symbolSDK/types.h"
 
 namespace catapult { namespace crypto {
 

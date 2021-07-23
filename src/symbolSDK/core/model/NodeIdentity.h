@@ -20,7 +20,7 @@
 **/
 
 #pragma once
-#include "catapult/types.h"
+#include "symbolSDK/types.h"
 #include <unordered_map>
 #include <unordered_set>
 

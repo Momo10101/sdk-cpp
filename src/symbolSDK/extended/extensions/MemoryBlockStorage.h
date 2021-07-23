@@ -20,8 +20,8 @@
 **/
 
 #pragma once
-#include "catapult/io/BlockStorage.h"
-#include "catapult/model/Elements.h"
+#include "symbolSDK/core/io/BlockStorage.h"
+#include "symbolSDK/core/model/Elements.h"
 #include <map>
 
 namespace catapult { namespace extensions {

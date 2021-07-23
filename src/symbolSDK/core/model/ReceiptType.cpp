@@ -20,7 +20,7 @@
 **/
 
 #include "ReceiptType.h"
-#include "catapult/utils/MacroBasedEnumIncludes.h"
+#include "../utils/MacroBasedEnumIncludes.h"
 
 namespace catapult { namespace model {
 
@@ -48,10 +48,10 @@ namespace catapult { namespace model {
 			CASE_WELL_KNOWN_RECEIPT_TYPE(Mosaic_Alias_Resolution);
 
 			// plugin receipt types
-			#include "plugins/txes/lock_hash/src/model/HashLockReceiptType.h"
-			#include "plugins/txes/lock_secret/src/model/SecretLockReceiptType.h"
-			#include "plugins/txes/mosaic/src/model/MosaicReceiptType.h"
-			#include "plugins/txes/namespace/src/model/NamespaceReceiptType.h"
+			#include "symbolSDK/plugins/txes/lock_hash/src/model/HashLockReceiptType.h"
+			#include "symbolSDK/plugins/txes/lock_secret/src/model/SecretLockReceiptType.h"
+			#include "symbolSDK/plugins/txes/mosaic/src/model/MosaicReceiptType.h"
+			#include "symbolSDK/plugins/txes/namespace/src/model/NamespaceReceiptType.h"
 			}
 
 			return nullptr;

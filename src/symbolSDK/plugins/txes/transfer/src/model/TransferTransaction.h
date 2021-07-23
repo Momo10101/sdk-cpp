@@ -21,8 +21,8 @@
 
 #pragma once
 #include "TransferEntityType.h"
-#include "catapult/model/Mosaic.h"
-#include "catapult/model/Transaction.h"
+#include "symbolSDK/core/model/Mosaic.h"
+#include "symbolSDK/core/model/Transaction.h"
 
 namespace catapult { namespace model {
 

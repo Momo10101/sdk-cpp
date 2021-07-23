@@ -21,8 +21,8 @@
 
 #pragma once
 #include "RawFile.h"
-#include "catapult/model/EntityRange.h"
-#include "catapult/model/HeightHashPair.h"
+#include "../model/EntityRange.h"
+#include "../model/HeightHashPair.h"
 
 namespace catapult { namespace io {
 

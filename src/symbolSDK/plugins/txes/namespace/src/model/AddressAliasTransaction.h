@@ -22,8 +22,8 @@
 #pragma once
 #include "NamespaceEntityType.h"
 #include "NamespaceTypes.h"
-#include "plugins/txes/namespace/src/types.h"
-#include "catapult/model/Transaction.h"
+#include "symbolSDK/plugins/txes/namespace/src/types.h"
+#include "symbolSDK/core/model/Transaction.h"
 
 namespace catapult { namespace model {
 

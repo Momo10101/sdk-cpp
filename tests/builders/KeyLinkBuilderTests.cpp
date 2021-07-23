@@ -19,11 +19,11 @@
 *** along with Catapult. If not, see <http://www.gnu.org/licenses/>.
 **/
 
-#include "src/builders/AccountKeyLinkBuilder.h"
-#include "src/builders/NodeKeyLinkBuilder.h"
-#include "src/builders/VotingKeyLinkBuilder.h"
-#include "src/builders/VrfKeyLinkBuilder.h"
-#include "sdk/tests/builders/test/BuilderTestUtils.h"
+#include "symbolSDK/extended/builders/AccountKeyLinkBuilder.h"
+#include "symbolSDK/extended/builders/NodeKeyLinkBuilder.h"
+#include "symbolSDK/extended/builders/VotingKeyLinkBuilder.h"
+#include "symbolSDK/extended/builders/VrfKeyLinkBuilder.h"
+#include "test/BuilderTestUtils.h"
 
 namespace catapult { namespace builders {
 

@@ -20,8 +20,8 @@
 **/
 
 #pragma once
-#include "catapult/plugins.h"
-#include "catapult/types.h"
+#include "symbolSDK/plugins.h"
+#include "symbolSDK/types.h"
 
 namespace catapult { namespace io {
 

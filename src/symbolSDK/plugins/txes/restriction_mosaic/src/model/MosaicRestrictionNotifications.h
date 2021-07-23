@@ -21,7 +21,7 @@
 
 #pragma once
 #include "src/model/MosaicRestrictionTypes.h"
-#include "catapult/model/Notifications.h"
+#include "symbolSDK/core/model/Notifications.h"
 
 namespace catapult { namespace model {
 

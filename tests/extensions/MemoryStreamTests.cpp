@@ -19,9 +19,9 @@
 *** along with Catapult. If not, see <http://www.gnu.org/licenses/>.
 **/
 
-#include "src/extensions/MemoryStream.h"
-#include "tests/catapult/io/test/StreamTests.h"
-#include "tests/TestHarness.h"
+#include "symbolSDK/extended/extensions/MemoryStream.h"
+#include "tests/shared/StreamTests.h"
+#include "tests/shared/TestHarness.h"
 
 namespace catapult { namespace extensions {
 

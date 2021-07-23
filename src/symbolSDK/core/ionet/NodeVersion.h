@@ -20,7 +20,7 @@
 **/
 
 #pragma once
-#include "catapult/utils/BaseValue.h"
+#include "../utils/BaseValue.h"
 #include <string>
 #include <stdint.h>
 

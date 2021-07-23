@@ -21,7 +21,7 @@
 
 #pragma once
 #include "VerifiableEntity.h"
-#include "catapult/utils/HexFormatter.h"
+#include "../utils/HexFormatter.h"
 #include <iosfwd>
 #include <vector>
 

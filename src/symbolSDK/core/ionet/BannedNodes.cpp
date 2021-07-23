@@ -20,8 +20,8 @@
 **/
 
 #include "BannedNodes.h"
-#include "catapult/utils/ContainerHelpers.h"
-#include "catapult/utils/Logging.h"
+#include "../utils/ContainerHelpers.h"
+#include "../utils/Logging.h"
 
 namespace catapult { namespace ionet {
 

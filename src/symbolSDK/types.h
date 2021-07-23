@@ -20,9 +20,9 @@
 **/
 
 #pragma once
-#include "utils/ByteArray.h"
-#include "utils/ClampedBaseValue.h"
-#include "utils/RawBuffer.h"
+#include "symbolSDK/core/utils/ByteArray.h"
+#include "symbolSDK/core/utils/ClampedBaseValue.h"
+#include "symbolSDK/core/utils/RawBuffer.h"
 #include <array>
 
 namespace catapult {

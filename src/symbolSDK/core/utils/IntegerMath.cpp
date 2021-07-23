@@ -1,3 +1,4 @@
+
 /**
 *** Copyright (c) 2016-2019, Jaguar0625, gimre, BloodyRookie, Tech Bureau, Corp.
 *** Copyright (c) 2020-present, Jaguar0625, gimre, BloodyRookie.
@@ -20,7 +21,7 @@
 **/
 
 #include "IntegerMath.h"
-#include "catapult/exceptions.h"
+#include "symbolSDK/exceptions.h"
 
 namespace catapult { namespace utils {
 

@@ -21,7 +21,7 @@
 
 #pragma once
 #include "VerifiableEntity.h"
-#include "catapult/functions.h"
+#include "symbolSDK/functions.h"
 
 namespace catapult { namespace model {
 

@@ -20,7 +20,7 @@
 **/
 
 #include "FixedSizeValueStorage.h"
-#include "catapult/config/CatapultDataDirectory.h"
+#include "../utils/CatapultDataDirectory.h"
 
 namespace catapult { namespace io {
 

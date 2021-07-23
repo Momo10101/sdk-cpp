@@ -21,7 +21,7 @@
 
 #include "Resolvable.h"
 #include "ResolverContext.h"
-#include "catapult/exceptions.h"
+#include "symbolSDK/exceptions.h"
 
 namespace catapult { namespace model {
 

@@ -23,8 +23,8 @@
 #include "Block.h"
 #include "ContainerTypes.h"
 #include "Transaction.h"
-#include "catapult/utils/Hashers.h"
-#include "catapult/utils/NonCopyable.h"
+#include "../utils/Hashers.h"
+#include "../utils/NonCopyable.h"
 #include <memory>
 
 namespace catapult { namespace model {

@@ -20,11 +20,11 @@
 **/
 
 #include "AggregateTransactionBuilder.h"
-#include "catapult/crypto/Hashes.h"
-#include "catapult/crypto/MerkleHashBuilder.h"
-#include "catapult/crypto/Signer.h"
-#include "catapult/model/EntityHasher.h"
-#include "catapult/utils/IntegerMath.h"
+#include "symbolSDK/core/crypto/Hashes.h"
+#include "symbolSDK/core/crypto/MerkleHashBuilder.h"
+#include "symbolSDK/core/crypto/Signer.h"
+#include "symbolSDK/core/model/EntityHasher.h"
+#include "symbolSDK/core/utils/IntegerMath.h"
 
 namespace catapult { namespace builders {
 

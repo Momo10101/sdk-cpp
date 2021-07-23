@@ -20,8 +20,8 @@
 **/
 
 #pragma once
-#include "catapult/model/ContainerTypes.h"
-#include "catapult/model/EntityInfo.h"
+#include "../model/ContainerTypes.h"
+#include "../model/EntityInfo.h"
 
 namespace catapult {
 	namespace io {

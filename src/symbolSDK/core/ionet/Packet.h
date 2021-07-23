@@ -21,9 +21,9 @@
 
 #pragma once
 #include "PacketHeader.h"
-#include "catapult/utils/MemoryUtils.h"
-#include "catapult/utils/NonCopyable.h"
-#include "catapult/types.h"
+#include "../utils/MemoryUtils.h"
+#include "../utils/NonCopyable.h"
+#include "symbolSDK/types.h"
 #include <memory>
 
 namespace catapult { namespace ionet {

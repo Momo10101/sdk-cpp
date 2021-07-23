@@ -20,7 +20,7 @@
 **/
 
 #include "RawFile.h"
-#include "catapult/exceptions.h"
+#include "symbolSDK/exceptions.h"
 #include <memory>
 #include <fcntl.h>
 #include <stdio.h>

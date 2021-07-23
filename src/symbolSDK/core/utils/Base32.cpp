@@ -20,7 +20,7 @@
 **/
 
 #include "Base32.h"
-#include "catapult/exceptions.h"
+#include "symbolSDK/exceptions.h"
 #include <array>
 #include <sstream>
 

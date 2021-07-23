@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.14)
 
 add_definitions(-DCATAPULT_VERSION_DESCRIPTION="${CATAPULT_VERSION_DESCRIPTION}")
-catapult_library_target(catapult.version)
+catapult_library_target(symbol.version)
 
 if(NOT MSVC)
 	add_subdirectory(nix)

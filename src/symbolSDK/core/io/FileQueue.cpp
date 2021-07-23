@@ -20,9 +20,9 @@
 **/
 
 #include "FileQueue.h"
-#include "catapult/config/CatapultDataDirectory.h"
-#include "catapult/utils/HexFormatter.h"
-#include "catapult/exceptions.h"
+#include "../utils/CatapultDataDirectory.h"
+#include "../utils/HexFormatter.h"
+#include "symbolSDK/exceptions.h"
 #include <filesystem>
 #include <sstream>
 

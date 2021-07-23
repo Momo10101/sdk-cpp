@@ -281,7 +281,7 @@ if(MSVC)
 	set(VERSION_RESOURCES ${CMAKE_SOURCE_DIR}/src/catapult/version/win/win_version.rc)
 else()
 	# since strings are not referenced, in order for the linker to include them, they must be forcibly linked via an object file
-	set(VERSION_RESOURCES $<TARGET_OBJECTS:catapult.version.nix>)
+	set(VERSION_RESOURCES $<TARGET_OBJECTS:symbol.version.nix>)
 endif()
 
 ### define target helper functions
@@ -434,7 +434,7 @@ function(catapult_test_executable_target TARGET_NAME TEST_DEPENDENCY_NAME)
 	MATH(EXPR TEST_END_INDEX "${TEST_END_INDEX}+1")
 	string(SUBSTRING ${TARGET_NAME} ${TEST_END_INDEX} -1 LIBRARY_UNDER_TEST)
 
-	target_link_libraries(${TARGET_NAME} tests.catapult.test.${TEST_DEPENDENCY_NAME} ${LIBRARY_UNDER_TEST})
+	target_link_libraries(${TARGET_NAME} tests.symbol.test.${TEST_DEPENDENCY_NAME} ${LIBRARY_UNDER_TEST})
 	catapult_target(${TARGET_NAME})
 endfunction()
 
@@ -447,16 +447,16 @@ function(catapult_test_executable_target_header_only TARGET_NAME TEST_DEPENDENCY
 	catapult_set_test_compiler_options()
 	set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS}" PARENT_SCOPE)
 
-	target_link_libraries(${TARGET_NAME} tests.catapult.test.${TEST_DEPENDENCY_NAME})
+	target_link_libraries(${TARGET_NAME} tests.symbol.test.${TEST_DEPENDENCY_NAME})
 	catapult_target(${TARGET_NAME})
 endfunction()
 
 # used to define a catapult tool executable
 function(catapult_define_tool TOOL_NAME)
-	set(TARGET_NAME catapult.tools.${TOOL_NAME})
+	set(TARGET_NAME symbol.tools.${TOOL_NAME})
 
 	catapult_executable(${TARGET_NAME})
-	target_link_libraries(${TARGET_NAME} catapult.tools)
+	target_link_libraries(${TARGET_NAME} symbol.tools)
 	catapult_target(${TARGET_NAME})
 
 	add_dependencies(tools ${TARGET_NAME})

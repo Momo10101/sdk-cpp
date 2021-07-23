@@ -20,7 +20,7 @@
 **/
 
 #include "NamespaceRegistrationBuilder.h"
-#include "plugins/txes/namespace/src/model/NamespaceIdGenerator.h"
+#include "symbolSDK/plugins/txes/namespace/src/model/NamespaceIdGenerator.h"
 
 namespace catapult { namespace builders {
 

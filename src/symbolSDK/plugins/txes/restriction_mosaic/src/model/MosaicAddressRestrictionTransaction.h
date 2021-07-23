@@ -21,7 +21,7 @@
 
 #pragma once
 #include "MosaicRestrictionEntityType.h"
-#include "catapult/model/Transaction.h"
+#include "symbolSDK/core/model/Transaction.h"
 
 namespace catapult { namespace model {
 

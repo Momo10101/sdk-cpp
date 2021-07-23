@@ -21,7 +21,7 @@
 
 #pragma once
 #include "FacilityCode.h"
-#include "catapult/utils/Casting.h"
+#include "../utils/Casting.h"
 #include <iosfwd>
 #include <stdint.h>
 

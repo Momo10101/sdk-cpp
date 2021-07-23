@@ -20,8 +20,8 @@
 **/
 
 #pragma once
-#include "catapult/utils/TimeSpan.h"
-#include "catapult/functions.h"
+#include "../utils/TimeSpan.h"
+#include "symbolSDK/functions.h"
 #include <list>
 
 namespace catapult { namespace ionet {

@@ -20,7 +20,7 @@
 **/
 
 #pragma once
-#include "catapult/ionet/PacketHandlers.h"
+#include "symbolSDK/core/ionet/PacketHandlers.h"
 #include <vector>
 
 namespace catapult {

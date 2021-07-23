@@ -23,8 +23,8 @@
 #include "SizePrefixedEntityContainer.h"
 #include "Transaction.h"
 #include "VerifiableEntity.h"
-#include "catapult/crypto/Vrf.h"
-#include "catapult/types.h"
+#include "../crypto/Vrf.h"
+#include "symbolSDK/types.h"
 #include <memory>
 #include <vector>
 

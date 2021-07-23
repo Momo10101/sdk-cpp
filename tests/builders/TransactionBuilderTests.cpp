@@ -19,9 +19,9 @@
 *** along with Catapult. If not, see <http://www.gnu.org/licenses/>.
 **/
 
-#include "src/builders/TransactionBuilder.h"
-#include "tests/test/core/mocks/MockTransaction.h"
-#include "tests/TestHarness.h"
+#include "symbolSDK/extended/builders/TransactionBuilder.h"
+#include "tests/shared/MockTransaction.h"
+#include "tests/shared/TestHarness.h"
 #include <numeric>
 
 namespace catapult { namespace builders {

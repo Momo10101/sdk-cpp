@@ -21,7 +21,7 @@
 
 #pragma once
 #include "ByteArray.h"
-#include "catapult/exceptions.h"
+#include "symbolSDK/exceptions.h"
 
 namespace catapult { namespace utils {
 

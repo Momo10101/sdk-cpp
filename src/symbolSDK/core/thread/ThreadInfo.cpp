@@ -20,7 +20,7 @@
 **/
 
 #include "ThreadInfo.h"
-#include "catapult/utils/Logging.h"
+#include "../utils/Logging.h"
 #ifdef _WIN32
 #include <windows.h>
 #else

@@ -21,7 +21,7 @@
 
 #include "Transaction.h"
 #include "TransactionPlugin.h"
-#include "catapult/utils/Logging.h"
+#include "../utils/Logging.h"
 
 namespace catapult { namespace model {
 

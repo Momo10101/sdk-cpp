@@ -22,9 +22,9 @@
 #pragma once
 #include "NodeRoles.h"
 #include "NodeVersion.h"
-#include "catapult/model/NetworkIdentifier.h"
-#include "catapult/model/NodeIdentity.h"
-#include "catapult/utils/Hashers.h"
+#include "../model/NetworkIdentifier.h"
+#include "../model/NodeIdentity.h"
+#include "../utils/Hashers.h"
 #include <unordered_set>
 
 namespace catapult { namespace ionet {

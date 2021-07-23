@@ -22,10 +22,10 @@
 #pragma once
 #include "IoTypes.h"
 #include "PacketPayload.h"
-#include "catapult/utils/NonCopyable.h"
-#include "catapult/constants.h"
-#include "catapult/functions.h"
-#include "catapult/types.h"
+#include "../utils/NonCopyable.h"
+#include "symbolSDK/constants.h"
+#include "symbolSDK/functions.h"
+#include "symbolSDK/types.h"
 #include <unordered_set>
 #include <vector>
 

@@ -19,11 +19,11 @@
 *** along with Catapult. If not, see <http://www.gnu.org/licenses/>.
 **/
 
-#include "src/builders/AccountAddressRestrictionBuilder.h"
-#include "src/builders/AccountMosaicRestrictionBuilder.h"
-#include "src/builders/AccountOperationRestrictionBuilder.h"
-#include "sdk/tests/builders/test/BuilderTestUtils.h"
-#include "tests/test/core/AddressTestUtils.h"
+#include "symbolSDK/extended/builders/AccountAddressRestrictionBuilder.h"
+#include "symbolSDK/extended/builders/AccountMosaicRestrictionBuilder.h"
+#include "symbolSDK/extended/builders/AccountOperationRestrictionBuilder.h"
+#include "test/BuilderTestUtils.h"
+#include "tests/shared/AddressTestUtils.h"
 
 namespace catapult { namespace builders {
 

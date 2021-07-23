@@ -21,10 +21,10 @@
 
 #pragma once
 #include "NetworkInfo.h"
-#include "catapult/utils/ConfigurationBag.h"
-#include "catapult/utils/FileSize.h"
-#include "catapult/utils/TimeSpan.h"
-#include "catapult/types.h"
+#include "../utils/ConfigurationBag.h"
+#include "../utils/FileSize.h"
+#include "../utils/TimeSpan.h"
+#include "symbolSDK/types.h"
 #include <unordered_map>
 #include <stdint.h>
 

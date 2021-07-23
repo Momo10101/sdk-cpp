@@ -20,7 +20,7 @@
 **/
 
 #pragma once
-#include "catapult/model/Elements.h"
+#include "../model/Elements.h"
 
 namespace catapult { namespace io {
 

@@ -20,7 +20,7 @@
 **/
 
 #pragma once
-#include "catapult/utils/WrappedWithOwnerDecorator.h"
+#include "../utils/WrappedWithOwnerDecorator.h"
 #include <boost/asio.hpp>
 
 namespace catapult { namespace thread {

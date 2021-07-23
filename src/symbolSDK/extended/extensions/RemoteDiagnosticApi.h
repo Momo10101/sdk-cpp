@@ -20,14 +20,14 @@
 **/
 
 #pragma once
-#include "plugins/txes/metadata/src/state/MetadataKey.h"
-#include "plugins/txes/namespace/src/types.h"
-#include "catapult/ionet/PackedNodeInfo.h"
-#include "catapult/model/CacheEntryInfo.h"
-#include "catapult/model/DiagnosticCounterValue.h"
-#include "catapult/model/RangeTypes.h"
-#include "catapult/state/TimestampedHash.h"
-#include "catapult/thread/Future.h"
+#include "symbolSDK/plugins/txes/metadata/src/state/MetadataKey.h"
+#include "symbolSDK/plugins/txes/namespace/src/types.h"
+#include "symbolSDK/core/ionet/PackedNodeInfo.h"
+#include "symbolSDK/core/model/CacheEntryInfo.h"
+#include "symbolSDK/core/model/DiagnosticCounterValue.h"
+#include "symbolSDK/core/model/RangeTypes.h"
+#include "symbolSDK/core/state/TimestampedHash.h"
+#include "symbolSDK/core/thread/Future.h"
 
 namespace catapult { namespace ionet { class PacketIo; } }
 

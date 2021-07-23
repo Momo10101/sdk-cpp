@@ -20,7 +20,7 @@
 **/
 
 #include "Sortition.h"
-#include "catapult/utils/Casting.h"
+#include "../utils/Casting.h"
 
 #ifdef _MSC_VER
 #pragma warning(push)

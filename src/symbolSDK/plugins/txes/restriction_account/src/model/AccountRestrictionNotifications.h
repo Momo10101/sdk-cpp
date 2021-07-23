@@ -23,7 +23,7 @@
 #include "AccountRestrictionFlags.h"
 #include "AccountRestrictionModification.h"
 #include "src/state/AccountRestrictionDescriptor.h"
-#include "catapult/model/Notifications.h"
+#include "symbolSDK/core/model/Notifications.h"
 
 namespace catapult { namespace model {
 

@@ -22,11 +22,11 @@
 #include "BlockUtils.h"
 #include "FeeUtils.h"
 #include "TransactionPlugin.h"
-#include "catapult/crypto/Hashes.h"
-#include "catapult/crypto/MerkleHashBuilder.h"
-#include "catapult/crypto/Signer.h"
-#include "catapult/utils/IntegerMath.h"
-#include "catapult/utils/MemoryUtils.h"
+#include "../crypto/Hashes.h"
+#include "../crypto/MerkleHashBuilder.h"
+#include "../crypto/Signer.h"
+#include "../utils/IntegerMath.h"
+#include "../utils/MemoryUtils.h"
 #include <cstring>
 
 namespace catapult { namespace model {

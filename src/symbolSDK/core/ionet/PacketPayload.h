@@ -21,7 +21,7 @@
 
 #pragma once
 #include "Packet.h"
-#include "catapult/types.h"
+#include "symbolSDK/types.h"
 #include <vector>
 
 namespace catapult { namespace ionet {

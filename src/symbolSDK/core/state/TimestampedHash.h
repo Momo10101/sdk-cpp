@@ -20,9 +20,9 @@
 **/
 
 #pragma once
-#include "catapult/model/EntityRange.h"
-#include "catapult/constants.h"
-#include "catapult/types.h"
+#include "symbolSDK/core/model/EntityRange.h"
+#include "symbolSDK/constants.h"
+#include "symbolSDK/types.h"
 
 namespace catapult { namespace state {
 

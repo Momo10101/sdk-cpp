@@ -20,7 +20,7 @@
 **/
 
 #pragma once
-#include "catapult/exceptions.h"
+#include "symbolSDK/exceptions.h"
 #include <limits>
 #include <stdexcept>
 #include <type_traits>

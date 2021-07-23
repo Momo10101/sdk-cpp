@@ -20,9 +20,9 @@
 **/
 
 #pragma once
-#include "catapult/utils/FileSize.h"
-#include "catapult/utils/TimeSpan.h"
-#include "catapult/functions.h"
+#include "../utils/FileSize.h"
+#include "../utils/TimeSpan.h"
+#include "symbolSDK/functions.h"
 #include <deque>
 
 namespace catapult { namespace ionet {

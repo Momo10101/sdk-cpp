@@ -20,9 +20,9 @@
 **/
 
 #include "IdGenerator.h"
-#include "plugins/txes/namespace/src/model/NameChecker.h"
-#include "plugins/txes/namespace/src/model/NamespaceIdGenerator.h"
-#include "catapult/exceptions.h"
+#include "symbolSDK/plugins/txes/namespace/src/model/NameChecker.h"
+#include "symbolSDK/plugins/txes/namespace/src/model/NamespaceIdGenerator.h"
+#include "symbolSDK/exceptions.h"
 
 namespace catapult { namespace extensions {
 

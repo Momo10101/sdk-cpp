@@ -20,7 +20,7 @@
 **/
 
 #include "NetworkNode.h"
-#include "catapult/utils/MemoryUtils.h"
+#include "../utils/MemoryUtils.h"
 
 namespace catapult { namespace ionet {
 

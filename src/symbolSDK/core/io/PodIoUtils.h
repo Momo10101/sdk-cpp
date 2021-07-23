@@ -20,8 +20,8 @@
 **/
 
 #pragma once
-#include "catapult/utils/BaseValue.h"
-#include "catapult/utils/traits/Traits.h"
+#include "../utils/BaseValue.h"
+#include "../utils/traits/Traits.h"
 #include <stdint.h>
 
 namespace catapult { namespace io {

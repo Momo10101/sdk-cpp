@@ -22,7 +22,7 @@
 #pragma once
 #include "CryptoUtils.h"
 #include "SharedKey.h"
-#include "catapult/types.h"
+#include "symbolSDK/types.h"
 
 namespace catapult { namespace crypto {
 

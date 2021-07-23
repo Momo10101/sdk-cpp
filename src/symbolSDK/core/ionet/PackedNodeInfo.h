@@ -21,7 +21,7 @@
 
 #pragma once
 #include "NodeInfo.h"
-#include "catapult/model/TrailingVariableDataLayout.h"
+#include "../model/TrailingVariableDataLayout.h"
 
 namespace catapult { namespace ionet {
 

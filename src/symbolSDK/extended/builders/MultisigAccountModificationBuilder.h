@@ -21,7 +21,7 @@
 
 #pragma once
 #include "TransactionBuilder.h"
-#include "plugins/txes/multisig/src/model/MultisigAccountModificationTransaction.h"
+#include "symbolSDK/plugins/txes/multisig/src/model/MultisigAccountModificationTransaction.h"
 #include <vector>
 
 namespace catapult { namespace builders {

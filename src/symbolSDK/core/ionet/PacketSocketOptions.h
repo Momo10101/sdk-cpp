@@ -21,8 +21,8 @@
 
 #pragma once
 #include "IpProtocol.h"
-#include "catapult/utils/TimeSpan.h"
-#include "catapult/functions.h"
+#include "../utils/TimeSpan.h"
+#include "symbolSDK/functions.h"
 #include <filesystem>
 
 namespace boost {

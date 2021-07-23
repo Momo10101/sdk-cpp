@@ -22,7 +22,7 @@
 #pragma once
 #include "EntityType.h"
 #include "NetworkIdentifier.h"
-#include "catapult/types.h"
+#include "symbolSDK/types.h"
 
 namespace catapult { namespace model {
 

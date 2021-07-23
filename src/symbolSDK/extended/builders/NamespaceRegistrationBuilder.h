@@ -21,7 +21,7 @@
 
 #pragma once
 #include "TransactionBuilder.h"
-#include "plugins/txes/namespace/src/model/NamespaceRegistrationTransaction.h"
+#include "symbolSDK/plugins/txes/namespace/src/model/NamespaceRegistrationTransaction.h"
 
 namespace catapult { namespace builders {
 

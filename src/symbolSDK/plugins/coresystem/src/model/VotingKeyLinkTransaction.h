@@ -20,7 +20,7 @@
 **/
 
 #pragma once
-#include "catapult/model/KeyLinkSharedTransaction.h"
+#include "symbolSDK/core/model/KeyLinkSharedTransaction.h"
 
 namespace catapult { namespace model {
 

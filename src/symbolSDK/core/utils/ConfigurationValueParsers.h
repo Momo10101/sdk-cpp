@@ -21,7 +21,7 @@
 
 #pragma once
 #include "Logging.h"
-#include "catapult/types.h"
+#include "symbolSDK/types.h"
 #include <array>
 #include <unordered_set>
 

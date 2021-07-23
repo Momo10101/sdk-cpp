@@ -20,7 +20,7 @@
 **/
 
 #include "src/plugins/TransferPlugin.h"
-#include "plugins/txes/transfer/src/model/TransferEntityType.h"
+#include "symbolSDK/plugins/txes/transfer/src/model/TransferEntityType.h"
 #include "tests/test/net/CertificateLocator.h"
 #include "tests/test/plugins/PluginManagerFactory.h"
 #include "tests/test/plugins/PluginTestUtils.h"

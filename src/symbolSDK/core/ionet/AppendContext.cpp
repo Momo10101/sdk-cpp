@@ -20,7 +20,7 @@
 **/
 
 #include "AppendContext.h"
-#include "catapult/exceptions.h"
+#include "symbolSDK/exceptions.h"
 
 namespace catapult { namespace ionet {
 

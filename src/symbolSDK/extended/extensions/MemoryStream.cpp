@@ -20,8 +20,8 @@
 **/
 
 #include "MemoryStream.h"
-#include "catapult/utils/MemoryUtils.h"
-#include "catapult/exceptions.h"
+#include "symbolSDK/core/utils/MemoryUtils.h"
+#include "symbolSDK/exceptions.h"
 #include <sstream>
 
 namespace catapult { namespace extensions {

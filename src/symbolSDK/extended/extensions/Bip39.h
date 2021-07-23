@@ -20,7 +20,7 @@
 **/
 
 #pragma once
-#include "catapult/types.h"
+#include "symbolSDK/types.h"
 #include <string>
 #include <vector>
 

@@ -22,7 +22,7 @@
 #pragma once
 #include "PacketHandlers.h"
 #include "SocketOperationCode.h"
-#include "catapult/model/NodeIdentity.h"
+#include "../model/NodeIdentity.h"
 #include <memory>
 
 namespace catapult {

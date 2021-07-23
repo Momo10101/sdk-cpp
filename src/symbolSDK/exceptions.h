@@ -21,10 +21,10 @@
 
 #pragma once
 #include "plugins.h"
-#include "utils/BaseValue.h"
-#include "utils/HexFormatter.h"
-#include "utils/Logging.h"
-#include "utils/NonCopyable.h"
+#include "symbolSDK/core/utils/BaseValue.h"
+#include "symbolSDK/core/utils/HexFormatter.h"
+#include "symbolSDK/core/utils/Logging.h"
+#include "symbolSDK/core/utils/NonCopyable.h"
 #include <boost/exception/exception.hpp>
 #include <boost/exception/info.hpp>
 #include <boost/throw_exception.hpp>

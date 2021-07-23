@@ -21,8 +21,8 @@
 
 #pragma once
 #include "PacketPayload.h"
-#include "catapult/model/Cosignature.h"
-#include "catapult/model/EntityInfo.h"
+#include "../model/Cosignature.h"
+#include "../model/EntityInfo.h"
 #include <vector>
 
 namespace catapult { namespace ionet {

@@ -20,8 +20,8 @@
 **/
 
 #pragma once
-#include "catapult/utils/Logging.h"
-#include "catapult/types.h"
+#include "../utils/Logging.h"
+#include "symbolSDK/types.h"
 #include <vector>
 
 namespace catapult { namespace ionet {

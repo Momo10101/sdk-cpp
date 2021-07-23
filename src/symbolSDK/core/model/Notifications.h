@@ -26,10 +26,10 @@
 #include "NetworkIdentifier.h"
 #include "NotificationType.h"
 #include "Resolvable.h"
-#include "catapult/utils/ArraySet.h"
-#include "catapult/utils/TimeSpan.h"
-#include "catapult/plugins.h"
-#include "catapult/types.h"
+#include "../utils/ArraySet.h"
+#include "../utils/TimeSpan.h"
+#include "symbolSDK/plugins.h"
+#include "symbolSDK/types.h"
 #include <vector>
 
 namespace catapult { namespace model {

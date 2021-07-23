@@ -21,9 +21,9 @@
 
 #pragma once
 #include "PacketPayload.h"
-#include "catapult/model/EntityRange.h"
-#include "catapult/utils/IntegerMath.h"
-#include "catapult/constants.h"
+#include "../model/EntityRange.h"
+#include "../utils/IntegerMath.h"
+#include "symbolSDK/constants.h"
 
 namespace catapult { namespace ionet {
 

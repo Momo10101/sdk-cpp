@@ -21,7 +21,7 @@
 
 #pragma once
 #include "SizeChecker.h"
-#include "catapult/utils/NonCopyable.h"
+#include "../utils/NonCopyable.h"
 #include <stdint.h>
 
 namespace catapult { namespace model {

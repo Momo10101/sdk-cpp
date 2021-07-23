@@ -21,7 +21,7 @@
 
 #pragma once
 #include "MosaicFlags.h"
-#include "catapult/types.h"
+#include "symbolSDK/types.h"
 
 namespace catapult { namespace model {
 

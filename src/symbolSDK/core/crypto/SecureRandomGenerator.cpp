@@ -20,7 +20,7 @@
 **/
 
 #include "SecureRandomGenerator.h"
-#include "catapult/exceptions.h"
+#include "symbolSDK/exceptions.h"
 
 #ifdef __clang__
 #pragma clang diagnostic push

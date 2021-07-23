@@ -20,9 +20,9 @@
 **/
 
 #include "NodeInteractionsContainer.h"
-#include "catapult/utils/Functional.h"
-#include "catapult/utils/NetworkTime.h"
-#include "catapult/utils/TimeSpan.h"
+#include "../utils/Functional.h"
+#include "../utils/NetworkTime.h"
+#include "../utils/TimeSpan.h"
 #include <algorithm>
 
 namespace catapult { namespace ionet {

@@ -19,9 +19,9 @@
 *** along with Catapult. If not, see <http://www.gnu.org/licenses/>.
 **/
 
-#include "src/extensions/MosaicUnit.h"
-#include "tests/test/nodeps/Comparison.h"
-#include "tests/TestHarness.h"
+#include "symbolSDK/extended/extensions/MosaicUnit.h"
+#include "tests/shared/Comparison.h"
+#include "tests/shared/TestHarness.h"
 
 namespace catapult { namespace extensions {
 

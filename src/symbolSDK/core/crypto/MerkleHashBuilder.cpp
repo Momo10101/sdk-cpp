@@ -21,7 +21,7 @@
 
 #include "MerkleHashBuilder.h"
 #include "Hashes.h"
-#include "catapult/functions.h"
+#include "symbolSDK/functions.h"
 
 namespace catapult { namespace crypto {
 

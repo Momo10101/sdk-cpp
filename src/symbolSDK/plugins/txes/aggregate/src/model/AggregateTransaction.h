@@ -21,10 +21,10 @@
 
 #pragma once
 #include "AggregateEntityType.h"
-#include "catapult/model/Cosignature.h"
-#include "catapult/model/EntityType.h"
-#include "catapult/model/SizePrefixedEntityContainer.h"
-#include "catapult/model/Transaction.h"
+#include "symbolSDK/core/model/Cosignature.h"
+#include "symbolSDK/core/model/EntityType.h"
+#include "symbolSDK/core/model/SizePrefixedEntityContainer.h"
+#include "symbolSDK/core/model/Transaction.h"
 
 namespace catapult { namespace model {
 

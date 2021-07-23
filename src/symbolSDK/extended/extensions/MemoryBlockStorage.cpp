@@ -20,9 +20,9 @@
 **/
 
 #include "MemoryBlockStorage.h"
-#include "catapult/io/BlockStatementSerializer.h"
-#include "catapult/io/Stream.h"
-#include "catapult/utils/MemoryUtils.h"
+#include "symbolSDK/core/io/BlockStatementSerializer.h"
+#include "symbolSDK/core/io/Stream.h"
+#include "symbolSDK/core/utils/MemoryUtils.h"
 
 namespace catapult { namespace extensions {
 

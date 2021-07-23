@@ -20,7 +20,7 @@
 **/
 
 #include "EntityType.h"
-#include "catapult/utils/MacroBasedEnumIncludes.h"
+#include "../utils/MacroBasedEnumIncludes.h"
 
 namespace catapult { namespace model {
 
@@ -49,17 +49,17 @@ namespace catapult { namespace model {
 			CASE_WELL_KNOWN_ENTITY_TYPE(Vrf_Key_Link);
 
 			// plugin entity types
-			#include "plugins/txes/account_link/src/model/AccountLinkEntityType.h"
-			#include "plugins/txes/aggregate/src/model/AggregateEntityType.h"
-			#include "plugins/txes/lock_hash/src/model/HashLockEntityType.h"
-			#include "plugins/txes/lock_secret/src/model/SecretLockEntityType.h"
-			#include "plugins/txes/metadata/src/model/MetadataEntityType.h"
-			#include "plugins/txes/mosaic/src/model/MosaicEntityType.h"
-			#include "plugins/txes/multisig/src/model/MultisigEntityType.h"
-			#include "plugins/txes/namespace/src/model/NamespaceEntityType.h"
-			#include "plugins/txes/restriction_account/src/model/AccountRestrictionEntityType.h"
-			#include "plugins/txes/restriction_mosaic/src/model/MosaicRestrictionEntityType.h"
-			#include "plugins/txes/transfer/src/model/TransferEntityType.h"
+			#include "symbolSDK/plugins/txes/account_link/src/model/AccountLinkEntityType.h"
+			#include "symbolSDK/plugins/txes/aggregate/src/model/AggregateEntityType.h"
+			#include "symbolSDK/plugins/txes/lock_hash/src/model/HashLockEntityType.h"
+			#include "symbolSDK/plugins/txes/lock_secret/src/model/SecretLockEntityType.h"
+			#include "symbolSDK/plugins/txes/metadata/src/model/MetadataEntityType.h"
+			#include "symbolSDK/plugins/txes/mosaic/src/model/MosaicEntityType.h"
+			#include "symbolSDK/plugins/txes/multisig/src/model/MultisigEntityType.h"
+			#include "symbolSDK/plugins/txes/namespace/src/model/NamespaceEntityType.h"
+			#include "symbolSDK/plugins/txes/restriction_account/src/model/AccountRestrictionEntityType.h"
+			#include "symbolSDK/plugins/txes/restriction_mosaic/src/model/MosaicRestrictionEntityType.h"
+			#include "symbolSDK/plugins/txes/transfer/src/model/TransferEntityType.h"
 			}
 
 			return nullptr;
