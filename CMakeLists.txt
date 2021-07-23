@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.14)
-project(catapult_server)
+project(symbol)
 option(ENABLE_CODE_COVERAGE "Enable code coverage" OFF)
 option(ENABLE_TESTS "Enable tests" ON)
 
@@ -61,51 +61,23 @@ function(catapult_add_openssl_dependencies TARGET_NAME)
 	target_link_libraries(${TARGET_NAME} OpenSSL::SSL)
 endfunction()
 
-### setup rocksdb
-message("--- locating rocksdb dependencies ---")
-find_package(RocksDB 6.20.3 EXACT REQUIRED)
-
-if(WIN32)
-	set(RocksDB_LIBRARY RocksDB::rocksdb)
-else()
-	set(RocksDB_LIBRARY RocksDB::rocksdb-shared)
-endif()
-
-message("rocksdb   ver: ${RocksDB_VERSION}")
-get_property(RocksDB_INCLUDE_DIRS TARGET ${RocksDB_LIBRARY} PROPERTY INTERFACE_INCLUDE_DIRECTORIES)
-message("rocksdb   inc: ${RocksDB_INCLUDE_DIRS}")
-get_library_path("RocksDB_LIBRARY_PATH" ${RocksDB_LIBRARY})
-message("rocksdb   lib: ${RocksDB_LIBRARY_PATH}")
-
-# used to add rocksdb dependencies to a target
-function(catapult_add_rocksdb_dependencies TARGET_NAME)
-	target_link_libraries(${TARGET_NAME} ${RocksDB_LIBRARY})
-endfunction()
-
 # cmake grouping targets
-add_custom_target(extensions)
-add_custom_target(mongo)
-add_custom_target(plugins)
-add_custom_target(server)
 add_custom_target(tools)
+
+
+include_directories( . )
 
 ### add source directories
 add_subdirectory(external)
 
 # run catapult tests first
-add_subdirectory(src)
 catapult_add_tests_subdirectory(tests)
-
-# run other tests second
-add_subdirectory(sdk)
-add_subdirectory(plugins)
-add_subdirectory(extensions)
-
-add_subdirectory(resources)
+add_subdirectory(src)
 
 if(EXISTS "${CMAKE_SOURCE_DIR}/internal/CMakeLists.txt")
 	message("--- adding internal directory ---")
 	add_subdirectory(internal)
 endif()
 
-add_subdirectory(tools)
+
+#add_subdirectory(tools)

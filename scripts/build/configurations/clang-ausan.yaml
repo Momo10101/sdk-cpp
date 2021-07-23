@@ -1,3 +1,0 @@
-compiler: ../compilers/clang-12.yaml
-sanitizers: address,undefined
-architecture: skylake

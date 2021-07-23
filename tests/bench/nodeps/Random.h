@@ -20,7 +20,7 @@
 **/
 
 #pragma once
-#include "catapult/types.h"
+#include "symbol/types.h"
 
 namespace catapult { namespace bench {
 
