@@ -23,7 +23,7 @@
 #include "symbolSDK/core/utils/Logging.h"
 #include "symbolSDK/exceptions.h"
 #include "symbolSDK/functions.h"
-#include "tests/shared/TestHarness.h"
+#include "tests/TestHarness.h"
 #include <atomic>
 #include <chrono>
 #include <functional>

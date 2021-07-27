@@ -25,9 +25,9 @@
 #include "symbolSDK/extended/extensions/BlockExtensions.h"
 #include "symbolSDK/core/model/BlockUtils.h"
 #include "symbolSDK/core/utils/HexParser.h"
-#include "KeyTestUtils.h"
-#include "TestConstants.h"
-#include "tests/shared/TestHarness.h"
+#include "tests/shared_nodeps/KeyTestUtils.h"
+#include "tests/shared_nodeps/TestConstants.h"
+#include "tests/TestHarness.h"
 
 namespace catapult { namespace test {
 

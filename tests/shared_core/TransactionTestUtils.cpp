@@ -22,13 +22,13 @@
 #include "TransactionTestUtils.h"
 #include "EntityTestUtils.h"
 #include "symbolSDK/extended/extensions/TransactionExtensions.h"
-#include "MockTransaction.h"
+#include "mocks/MockTransaction.h"
 #include "symbolSDK/core/crypto/Signer.h"
 #include "symbolSDK/core/model/VerifiableEntity.h"
 #include "symbolSDK/core/utils/HexParser.h"
 #include "symbolSDK/preprocessor.h"
-#include "KeyTestUtils.h"
-#include "TestConstants.h"
+#include "tests/shared_nodeps/KeyTestUtils.h"
+#include "tests/shared_nodeps/TestConstants.h"
 #include <memory>
 
 namespace catapult { namespace test {

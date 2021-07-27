@@ -21,7 +21,7 @@
 
 #include "symbolSDK/extended/extensions/Bip39.h"
 #include "symbolSDK/core/utils/HexParser.h"
-#include "tests/shared/TestHarness.h"
+#include "tests/TestHarness.h"
 
 namespace catapult { namespace extensions {
 

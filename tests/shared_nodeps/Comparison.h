@@ -20,7 +20,7 @@
 **/
 
 #pragma once
-#include "tests/shared/TestHarness.h"
+#include "tests/TestHarness.h"
 
 namespace catapult { namespace test {
 

@@ -20,8 +20,8 @@
 **/
 
 #include "symbolSDK/extended/extensions/MemoryStream.h"
-#include "tests/shared/StreamTests.h"
-#include "tests/shared/TestHarness.h"
+#include "tests/StreamTests.h"
+#include "tests/TestHarness.h"
 
 namespace catapult { namespace extensions {
 

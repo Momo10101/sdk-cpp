@@ -23,7 +23,7 @@
 #include "symbolSDK/core/utils/Logging.h"
 #include "symbolSDK/version/version.h"
 #include "symbolSDK/preprocessor.h"
-#include "TestHarness.h"
+#include "tests/TestHarness.h"
 #include <thread>
 
 #ifdef CATAPULT_DOCKER_TESTS

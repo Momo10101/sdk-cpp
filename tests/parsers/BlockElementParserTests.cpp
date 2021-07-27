@@ -20,8 +20,8 @@
 **/
 
 #include "symbolSDK/extended/parsers/BlockElementParser.h"
-#include "tests/shared/BlockTestUtils.h"
-#include "tests/shared/TestHarness.h"
+#include "tests/shared_core/BlockTestUtils.h"
+#include "tests/TestHarness.h"
 
 namespace catapult { namespace parsers {
 

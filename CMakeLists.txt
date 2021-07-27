@@ -87,8 +87,8 @@ include_directories( . )
 add_subdirectory(external)
 
 # run catapult tests first
-add_subdirectory(src)
 catapult_add_tests_subdirectory(tests)
+add_subdirectory(src)
 
 
 # run other tests second

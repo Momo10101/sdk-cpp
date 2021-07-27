@@ -20,7 +20,7 @@
 **/
 
 #include "symbolSDK/extended/extensions/Bip32.h"
-#include "tests/shared/TestHarness.h"
+#include "tests/TestHarness.h"
 
 namespace catapult { namespace extensions {
 

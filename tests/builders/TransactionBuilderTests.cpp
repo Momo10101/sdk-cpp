@@ -20,8 +20,8 @@
 **/
 
 #include "symbolSDK/extended/builders/TransactionBuilder.h"
-#include "tests/shared/MockTransaction.h"
-#include "tests/shared/TestHarness.h"
+#include "tests/shared_core/mocks/MockTransaction.h"
+#include "tests/TestHarness.h"
 #include <numeric>
 
 namespace catapult { namespace builders {

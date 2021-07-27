@@ -23,7 +23,7 @@
 #include "symbolSDK/extended/builders/AccountMosaicRestrictionBuilder.h"
 #include "symbolSDK/extended/builders/AccountOperationRestrictionBuilder.h"
 #include "test/BuilderTestUtils.h"
-#include "tests/shared/AddressTestUtils.h"
+#include "tests/shared_core/AddressTestUtils.h"
 
 namespace catapult { namespace builders {
 

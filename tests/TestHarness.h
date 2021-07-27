@@ -21,10 +21,10 @@
 
 #pragma once
 #include "symbolSDK/core/utils/HexFormatter.h"
-#include "Conversions.h"
-#include "Random.h"
-#include "Stress.h" /* note that gtest.h is included by Stress.h */
-#include "Waits.h"
+#include "tests/shared_nodeps/Conversions.h"
+#include "tests/shared_nodeps/Random.h"
+#include "tests/shared_nodeps/Stress.h" /* note that gtest.h is included by Stress.h */
+#include "tests/shared_nodeps/Waits.h"
 
 // EXPECT_EQ is not used anywhere to compare different types of null pointers
 // so the following hack is used to circumvent clang complaints inside gtest

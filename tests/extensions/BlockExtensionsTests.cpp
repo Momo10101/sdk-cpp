@@ -25,11 +25,11 @@
 #include "symbolSDK/core/model/BlockUtils.h"
 #include "symbolSDK/core/model/EntityHasher.h"
 #include "symbolSDK/core/utils/HexParser.h"
-#include "tests/shared/BlockTestUtils.h"
-#include "tests/shared/MockTransactionPluginWithCustomBuffers.h"
-#include "tests/shared/KeyTestUtils.h"
-#include "tests/shared/TestConstants.h"
-#include "tests/shared/TestHarness.h"
+#include "tests/shared_core/BlockTestUtils.h"
+#include "tests/shared_core/mocks/MockTransactionPluginWithCustomBuffers.h"
+#include "tests/shared_nodeps/KeyTestUtils.h"
+#include "tests/shared_nodeps/TestConstants.h"
+#include "tests/TestHarness.h"
 
 namespace catapult { namespace extensions {
 

@@ -20,7 +20,7 @@
 **/
 
 #include "Waits.h"
-#include "tests/shared/TestHarness.h"
+#include "tests/TestHarness.h"
 #include <chrono>
 #include <thread>
 

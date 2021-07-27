@@ -24,7 +24,7 @@
 #include "symbolSDK/core/model/VerifiableEntity.h"
 #include "symbolSDK/core/utils/MemoryUtils.h"
 #include "symbolSDK/preprocessor.h"
-#include "TestHarness.h"
+#include "tests/TestHarness.h"
 #include <memory>
 #include <vector>
 

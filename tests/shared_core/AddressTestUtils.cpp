@@ -19,10 +19,10 @@
 *** along with Catapult. If not, see <http://www.gnu.org/licenses/>.
 **/
 
-#include "AddressTestUtils.h"
+#include "tests/shared_core/AddressTestUtils.h"
 #include "symbolSDK/extended/extensions/ConversionExtensions.h"
 #include "symbolSDK/core/model/Address.h"
-#include "Random.h"
+#include "tests/shared_nodeps/Random.h"
 
 namespace catapult { namespace test {
 

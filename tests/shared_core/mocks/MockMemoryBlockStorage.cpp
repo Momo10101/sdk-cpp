@@ -21,8 +21,8 @@
 
 #include "MockMemoryBlockStorage.h"
 #include "symbolSDK/preprocessor.h"
-#include "BlockTestUtils.h"
-#include "Nemesis.h"
+#include "tests/shared_core/BlockTestUtils.h"
+#include "tests/shared_nodeps/Nemesis.h"
 
 namespace catapult { namespace mocks {
 

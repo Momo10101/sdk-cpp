@@ -20,10 +20,10 @@
 **/
 
 #pragma once
-#include "AddressTestUtils.h"
+#include "tests/shared_core/AddressTestUtils.h"
 #include "symbolSDK/core/model/Cosignature.h"
 #include "symbolSDK/core/model/RangeTypes.h"
-#include "TestHarness.h"
+#include "tests/TestHarness.h"
 #include <memory>
 #include <vector>
 
