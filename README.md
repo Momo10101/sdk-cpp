@@ -9,7 +9,7 @@ The sdk code is organized as follows:
 | Folder name | Description |
 | -------------|--------------|
 | /external | External dependencies that are built with the sdk. |
-| /src/symbolSDK/core | The core SDK functionality with no outer dependencies |
+| /src/symbolSDK/core | The core SDK functionality with no external dependencies |
 | /src/symbolSDK/extended | The extended SDK functionality with dependencies on core |
 | /src/symbolSDK/plugins | Modules that introduce new and different ways to alter the chain's state via transactions. |
 | /tests | Collection of unit tests that test the sdk functionality. |
