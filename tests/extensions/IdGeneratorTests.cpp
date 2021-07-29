@@ -22,7 +22,7 @@
 #include "symbolSDK/extended/extensions/IdGenerator.h"
 #include "symbolSDK/plugins/txes/mosaic/src/model/MosaicIdGenerator.h"
 #include "symbolSDK/plugins/txes/namespace/src/model/NamespaceIdGenerator.h"
-#include "tests/shared_nodeps/TestConstants.h"
+#include "tests/shared/nodeps/TestConstants.h"
 #include "tests/TestHarness.h"
 
 namespace catapult { namespace extensions {

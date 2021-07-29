@@ -22,11 +22,11 @@
 #include "symbolSDK/extended/extensions/TransactionExtensions.h"
 #include "symbolSDK/plugins/txes/aggregate/src/model/AggregateTransaction.h"
 #include "symbolSDK/core/utils/HexParser.h"
-#include "tests/shared_core/EntityTestUtils.h"
-#include "tests/shared_core/TransactionTestUtils.h"
-#include "tests/shared_core/mocks/MockTransaction.h"
-#include "tests/shared_nodeps/KeyTestUtils.h"
-#include "tests/shared_nodeps/TestConstants.h"
+#include "tests/shared/core/EntityTestUtils.h"
+#include "tests/shared/core/TransactionTestUtils.h"
+#include "tests/shared/core/mocks/MockTransaction.h"
+#include "tests/shared/nodeps/KeyTestUtils.h"
+#include "tests/shared/nodeps/TestConstants.h"
 #include "tests/TestHarness.h"
 
 namespace catapult { namespace extensions {

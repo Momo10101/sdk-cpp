@@ -20,8 +20,8 @@
 **/
 
 #include "BlockStatementTestUtils.h"
-#include "tests/shared_core/mocks/MockMemoryStream.h"
-#include "tests/shared_core/mocks/MockReceipt.h"
+#include "tests/shared/core/mocks/MockMemoryStream.h"
+#include "tests/shared/core/mocks/MockReceipt.h"
 #include "symbolSDK/core/io/BlockStatementSerializer.h"
 #include "tests/TestHarness.h"
 

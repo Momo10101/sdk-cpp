@@ -20,7 +20,7 @@
 **/
 
 #include "symbolSDK/extended/extensions/MosaicUnit.h"
-#include "tests/shared_nodeps/Comparison.h"
+#include "tests/shared/nodeps/Comparison.h"
 #include "tests/TestHarness.h"
 
 namespace catapult { namespace extensions {

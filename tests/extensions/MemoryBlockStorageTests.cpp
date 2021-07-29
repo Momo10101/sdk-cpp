@@ -20,7 +20,7 @@
 **/
 
 #include "symbolSDK/extended/extensions/MemoryBlockStorage.h"
-#include "tests/shared_core/BlockStorageTests.h"
+#include "tests/shared/core/BlockStorageTests.h"
 #include "tests/TestHarness.h"
 
 namespace catapult { namespace extensions {

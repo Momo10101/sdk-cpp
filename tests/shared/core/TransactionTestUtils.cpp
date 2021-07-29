@@ -27,8 +27,8 @@
 #include "symbolSDK/core/model/VerifiableEntity.h"
 #include "symbolSDK/core/utils/HexParser.h"
 #include "symbolSDK/preprocessor.h"
-#include "tests/shared_nodeps/KeyTestUtils.h"
-#include "tests/shared_nodeps/TestConstants.h"
+#include "tests/shared/nodeps/KeyTestUtils.h"
+#include "tests/shared/nodeps/TestConstants.h"
 #include <memory>
 
 namespace catapult { namespace test {

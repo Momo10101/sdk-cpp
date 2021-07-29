@@ -20,7 +20,7 @@
 **/
 
 #include "symbolSDK/extended/builders/TransactionBuilder.h"
-#include "tests/shared_core/mocks/MockTransaction.h"
+#include "tests/shared/core/mocks/MockTransaction.h"
 #include "tests/TestHarness.h"
 #include <numeric>
 

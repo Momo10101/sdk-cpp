@@ -25,9 +25,9 @@
 #include "symbolSDK/core/crypto/Signer.h"
 #include "symbolSDK/core/model/EntityHasher.h"
 #include "test/BuilderTestUtils.h"
-#include "tests/shared_core/EntityTestUtils.h"
-#include "tests/shared_core/mocks/MockTransaction.h"
-#include "tests/shared_nodeps/KeyTestUtils.h"
+#include "tests/shared/core/EntityTestUtils.h"
+#include "tests/shared/core/mocks/MockTransaction.h"
+#include "tests/shared/nodeps/KeyTestUtils.h"
 
 namespace catapult { namespace builders {
 
