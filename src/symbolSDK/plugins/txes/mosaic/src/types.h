@@ -20,7 +20,7 @@
 **/
 
 #pragma once
-#include "types.h"
+#include "symbolSDK/types.h"
 
 namespace catapult {
 

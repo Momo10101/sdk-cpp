@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.14)
 
 include_directories( . )
 
-set(TARGET_NAME symbol.sdk.core)
+#set(TARGET_NAME catapult.sdk.core)
 
 
 #catapult_library_target(${TARGET_NAME}
