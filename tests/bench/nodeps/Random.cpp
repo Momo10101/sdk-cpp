@@ -19,19 +19,21 @@
 *** along with Catapult. If not, see <http://www.gnu.org/licenses/>.
 **/
 
-#include "catapult/version/version.h"
-#include <benchmark/benchmark.h>
-#include <ctime>
-#include <iostream>
+#include "Random.h"
+#include "symbol_sdk/core/utils/RandomGenerator.h"
+#include <algorithm>
 
-extern void RegisterTests();
+namespace catapult { namespace bench {
 
-int main(int argc, char** argv) {
-	catapult::version::WriteVersionInformation(std::cout);
-	std::srand(static_cast<unsigned int>(std::time(nullptr)));
+	uint64_t Random() {
+		return utils::LowEntropyRandomGenerator()();
+	}
 
-	RegisterTests();
-	benchmark::Initialize(&argc, argv);
-	benchmark::RunSpecifiedBenchmarks();
-	return 0;
-}
+	uint8_t RandomByte() {
+		return static_cast<uint8_t>(Random());
+	}
+
+	void FillWithRandomData(const MutableRawBuffer& dataBuffer) {
+		std::generate_n(dataBuffer.pData, dataBuffer.Size, RandomByte);
+	}
+}}

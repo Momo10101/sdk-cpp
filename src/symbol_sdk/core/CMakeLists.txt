@@ -21,4 +21,5 @@ add_subdirectory( ionet )
 add_subdirectory( model )
 add_subdirectory( thread )
 add_subdirectory( utils )
+add_subdirectory( tree )
 

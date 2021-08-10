@@ -20,7 +20,7 @@
 **/
 
 #include "TreeNodePath.h"
-#include "catapult/utils/HexFormatter.h"
+#include "symbol_sdk/core/utils/HexFormatter.h"
 #include <cstring>
 #include <ostream>
 

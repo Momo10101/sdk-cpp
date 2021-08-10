@@ -19,9 +19,9 @@
 *** along with Catapult. If not, see <http://www.gnu.org/licenses/>.
 **/
 
-#include "catapult/crypto/Signer.h"
-#include "catapult/utils/Logging.h"
-#include "catapult/utils/RandomGenerator.h"
+#include "symbol_sdk/core/crypto/Signer.h"
+#include "symbol_sdk/core/utils/Logging.h"
+#include "symbol_sdk/core/utils/RandomGenerator.h"
 #include "tests/bench/nodeps/Random.h"
 #include <benchmark/benchmark.h>
 

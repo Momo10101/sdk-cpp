@@ -20,10 +20,10 @@
 **/
 
 #include "PatriciaTreeSerializer.h"
-#include "catapult/io/BufferInputStreamAdapter.h"
-#include "catapult/io/PodIoUtils.h"
-#include "catapult/io/StringOutputStream.h"
-#include "catapult/utils/IntegerMath.h"
+#include "symbol_sdk/core/io/BufferInputStreamAdapter.h"
+#include "symbol_sdk/core/io/PodIoUtils.h"
+#include "symbol_sdk/core/io/StringOutputStream.h"
+#include "symbol_sdk/core/utils/IntegerMath.h"
 
 namespace catapult { namespace tree {
 

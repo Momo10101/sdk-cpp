@@ -20,9 +20,9 @@
 **/
 
 #include "TreeNode.h"
-#include "catapult/crypto/Hashes.h"
-#include "catapult/utils/IntegerMath.h"
-#include "catapult/exceptions.h"
+#include "symbol_sdk/core/crypto/Hashes.h"
+#include "symbol_sdk/core/utils/IntegerMath.h"
+#include "symbol_sdk/exceptions.h"
 
 namespace catapult { namespace tree {
 

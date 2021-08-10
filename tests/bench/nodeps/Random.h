@@ -19,21 +19,17 @@
 *** along with Catapult. If not, see <http://www.gnu.org/licenses/>.
 **/
 
-#include "Random.h"
-#include "catapult/utils/RandomGenerator.h"
-#include <algorithm>
+#pragma once
+#include "symbol_sdk/types.h"
 
 namespace catapult { namespace bench {
 
-	uint64_t Random() {
-		return utils::LowEntropyRandomGenerator()();
-	}
+	/// Generates a uint64_t random number.
+	uint64_t Random();
 
-	uint8_t RandomByte() {
-		return static_cast<uint8_t>(Random());
-	}
+	/// Generates a uint8_t random number.
+	uint8_t RandomByte();
 
-	void FillWithRandomData(const MutableRawBuffer& dataBuffer) {
-		std::generate_n(dataBuffer.pData, dataBuffer.Size, RandomByte);
-	}
+	/// Fills a buffer \a dataBuffer with random data.
+	void FillWithRandomData(const MutableRawBuffer& dataBuffer);
 }}

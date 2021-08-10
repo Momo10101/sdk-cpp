@@ -61,6 +61,10 @@ function(catapult_add_openssl_dependencies TARGET_NAME)
 	target_link_libraries(${TARGET_NAME} OpenSSL::SSL)
 endfunction()
 
+# cmake grouping targets
+add_custom_target(tools)
+
+
 include_directories( . )
 
 ### add source directories
@@ -74,3 +78,6 @@ if(EXISTS "${CMAKE_SOURCE_DIR}/internal/CMakeLists.txt")
 	message("--- adding internal directory ---")
 	add_subdirectory(internal)
 endif()
+
+
+#add_subdirectory(tools)

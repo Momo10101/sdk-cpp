@@ -4,6 +4,7 @@ boost/1.76.0
 openssl/1.1.1g@nemtech/stable
 
 # test dependencies
+benchmark/1.5.3@nemtech/stable
 gtest/1.10.0
 
 [generators]

@@ -19,17 +19,19 @@
 *** along with Catapult. If not, see <http://www.gnu.org/licenses/>.
 **/
 
-#pragma once
-#include "catapult/types.h"
+#include "symbol_sdk/version/version.h"
+#include <benchmark/benchmark.h>
+#include <ctime>
+#include <iostream>
 
-namespace catapult { namespace bench {
+extern void RegisterTests();
 
-	/// Generates a uint64_t random number.
-	uint64_t Random();
+int main(int argc, char** argv) {
+	catapult::version::WriteVersionInformation(std::cout);
+	std::srand(static_cast<unsigned int>(std::time(nullptr)));
 
-	/// Generates a uint8_t random number.
-	uint8_t RandomByte();
-
-	/// Fills a buffer \a dataBuffer with random data.
-	void FillWithRandomData(const MutableRawBuffer& dataBuffer);
-}}
+	RegisterTests();
+	benchmark::Initialize(&argc, argv);
+	benchmark::RunSpecifiedBenchmarks();
+	return 0;
+}

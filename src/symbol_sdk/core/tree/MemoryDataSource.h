@@ -22,8 +22,8 @@
 #pragma once
 #include "DataSourceVerbosity.h"
 #include "TreeNode.h"
-#include "catapult/utils/Hashers.h"
-#include "catapult/functions.h"
+#include "symbol_sdk/core/utils/Hashers.h"
+#include "symbol_sdk/functions.h"
 #include <unordered_map>
 
 namespace catapult { namespace tree {
