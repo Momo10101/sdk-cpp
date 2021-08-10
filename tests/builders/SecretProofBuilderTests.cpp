@@ -19,7 +19,7 @@
 *** along with Catapult. If not, see <http://www.gnu.org/licenses/>.
 **/
 
-#include "symbolSDK/extended/builders/SecretProofBuilder.h"
+#include "symbol_sdk/extended/builders/SecretProofBuilder.h"
 #include "test/BuilderTestUtils.h"
 
 namespace catapult { namespace builders {

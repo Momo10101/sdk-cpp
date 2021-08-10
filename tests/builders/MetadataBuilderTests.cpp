@@ -19,9 +19,9 @@
 *** along with Catapult. If not, see <http://www.gnu.org/licenses/>.
 **/
 
-#include "symbolSDK/extended/builders/AccountMetadataBuilder.h"
-#include "symbolSDK/extended/builders/MosaicMetadataBuilder.h"
-#include "symbolSDK/extended/builders/NamespaceMetadataBuilder.h"
+#include "symbol_sdk/extended/builders/AccountMetadataBuilder.h"
+#include "symbol_sdk/extended/builders/MosaicMetadataBuilder.h"
+#include "symbol_sdk/extended/builders/NamespaceMetadataBuilder.h"
 #include "test/BuilderTestUtils.h"
 
 namespace catapult { namespace builders {

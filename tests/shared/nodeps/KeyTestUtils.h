@@ -20,8 +20,8 @@
 **/
 
 #pragma once
-#include "symbolSDK/core/crypto/KeyPair.h"
-#include "symbolSDK/core/utils/ArraySet.h"
+#include "symbol_sdk/core/crypto/KeyPair.h"
+#include "symbol_sdk/core/utils/ArraySet.h"
 
 namespace catapult { namespace test {
 

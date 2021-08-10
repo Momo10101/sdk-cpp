@@ -19,11 +19,11 @@
 *** along with Catapult. If not, see <http://www.gnu.org/licenses/>.
 **/
 
-#include "symbolSDK/extended/builders/AggregateTransactionBuilder.h"
-#include "symbolSDK/core/crypto/Hashes.h"
-#include "symbolSDK/core/crypto/MerkleHashBuilder.h"
-#include "symbolSDK/core/crypto/Signer.h"
-#include "symbolSDK/core/model/EntityHasher.h"
+#include "symbol_sdk/extended/builders/AggregateTransactionBuilder.h"
+#include "symbol_sdk/core/crypto/Hashes.h"
+#include "symbol_sdk/core/crypto/MerkleHashBuilder.h"
+#include "symbol_sdk/core/crypto/Signer.h"
+#include "symbol_sdk/core/model/EntityHasher.h"
 #include "test/BuilderTestUtils.h"
 #include "tests/shared/core/EntityTestUtils.h"
 #include "tests/shared/core/mocks/MockTransaction.h"

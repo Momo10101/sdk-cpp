@@ -21,8 +21,8 @@
 
 #include "BlockStorageTestUtils.h"
 #include "BlockTestUtils.h"
-#include "symbolSDK/core/io/BlockStatementSerializer.h"
-#include "symbolSDK/core/io/BufferInputStreamAdapter.h"
+#include "symbol_sdk/core/io/BlockStatementSerializer.h"
+#include "symbol_sdk/core/io/BufferInputStreamAdapter.h"
 
 namespace catapult { namespace test {
 

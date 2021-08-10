@@ -20,8 +20,8 @@
 **/
 
 #pragma once
-#include "symbolSDK/core/model/ContainerTypes.h"
-#include "symbolSDK/core/model/NetworkIdentifier.h"
+#include "symbol_sdk/core/model/ContainerTypes.h"
+#include "symbol_sdk/core/model/NetworkIdentifier.h"
 #include <memory>
 
 namespace catapult { namespace test {

@@ -20,9 +20,9 @@
 **/
 
 #include "MockTransaction.h"
-#include "symbolSDK/core/model/Address.h"
-#include "symbolSDK/core/model/NotificationSubscriber.h"
-#include "symbolSDK/core/utils/MemoryUtils.h"
+#include "symbol_sdk/core/model/Address.h"
+#include "symbol_sdk/core/model/NotificationSubscriber.h"
+#include "symbol_sdk/core/utils/MemoryUtils.h"
 #include "tests/shared/core/NotificationTestUtils.h"
 #include "tests/shared/core/ResolverTestUtils.h"
 #include "tests/shared/nodeps/Random.h"

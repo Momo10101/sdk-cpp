@@ -19,7 +19,7 @@
 *** along with Catapult. If not, see <http://www.gnu.org/licenses/>.
 **/
 
-#include "symbolSDK/extended/extensions/Bip32.h"
+#include "symbol_sdk/extended/extensions/Bip32.h"
 #include "tests/TestHarness.h"
 
 namespace catapult { namespace extensions {

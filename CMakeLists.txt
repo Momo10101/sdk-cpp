@@ -30,12 +30,21 @@ endfunction()
 
 ### setup boost
 message("--- locating boost dependencies ---")
-find_package(Boost 1.71.0 EXACT COMPONENTS ${CATAPULT_BOOST_COMPONENTS} REQUIRED)
+find_package(Boost 1.76.0 EXACT COMPONENTS ${CATAPULT_BOOST_COMPONENTS} REQUIRED)
 include_directories(SYSTEM ${Boost_INCLUDE_DIR})
 
 message("boost     ver: ${Boost_VERSION}")
 message("boost     inc: ${Boost_INCLUDE_DIR}")
 message("boost    libs: ${Boost_LIBRARIES}")
+
+### setup gtest
+if(ENABLE_TESTS)
+	message("--- locating gtest dependencies ---")
+
+	find_package(GTest 1.10.0 EXACT REQUIRED)
+	message("GTest     ver: ${GTest_VERSION}")
+	message("GTest    libs: ${GTEST_LIBRARIES}")
+endif()
 
 ### setup openssl
 message("--- locating openssl dependencies ---")
@@ -52,36 +61,7 @@ function(catapult_add_openssl_dependencies TARGET_NAME)
 	target_link_libraries(${TARGET_NAME} OpenSSL::SSL)
 endfunction()
 
-### setup rocksdb
-#message("--- locating rocksdb dependencies ---")
-#find_package(RocksDB 6.20.3 EXACT REQUIRED)
-#
-#if(WIN32)
-#	set(RocksDB_LIBRARY RocksDB::rocksdb)
-#else()
-#	set(RocksDB_LIBRARY RocksDB::rocksdb-shared)
-#endif()
-#
-#message("rocksdb   ver: ${RocksDB_VERSION}")
-#get_property(RocksDB_INCLUDE_DIRS TARGET ${RocksDB_LIBRARY} PROPERTY INTERFACE_INCLUDE_DIRECTORIES)
-#message("rocksdb   inc: ${RocksDB_INCLUDE_DIRS}")
-#get_library_path("RocksDB_LIBRARY_PATH" ${RocksDB_LIBRARY})
-#message("rocksdb   lib: ${RocksDB_LIBRARY_PATH}")
-
-# used to add rocksdb dependencies to a target
-#function(catapult_add_rocksdb_dependencies TARGET_NAME)
-#	target_link_libraries(${TARGET_NAME} ${RocksDB_LIBRARY})
-#endfunction()
-
-# cmake grouping targets
-#add_custom_target(extensions)
-#add_custom_target(mongo)
-#add_custom_target(plugins)
-#add_custom_target(server)
-#add_custom_target(tools)
-
 include_directories( . )
-
 
 ### add source directories
 add_subdirectory(external)
@@ -90,17 +70,7 @@ add_subdirectory(external)
 catapult_add_tests_subdirectory(tests)
 add_subdirectory(src)
 
-
-# run other tests second
-#add_subdirectory(sdk)
-#add_subdirectory(plugins)
-#add_subdirectory(extensions)
-
-#add_subdirectory(resources)
-
 if(EXISTS "${CMAKE_SOURCE_DIR}/internal/CMakeLists.txt")
 	message("--- adding internal directory ---")
 	add_subdirectory(internal)
 endif()
-
-#add_subdirectory(tools)

@@ -20,10 +20,10 @@
 **/
 
 #pragma once
-#include "symbolSDK/core/model/Mosaic.h"
-#include "symbolSDK/core/model/Notifications.h"
-#include "symbolSDK/core/model/Transaction.h"
-#include "symbolSDK/core/model/TransactionPlugin.h"
+#include "symbol_sdk/core/model/Mosaic.h"
+#include "symbol_sdk/core/model/Notifications.h"
+#include "symbol_sdk/core/model/Transaction.h"
+#include "symbol_sdk/core/model/TransactionPlugin.h"
 
 namespace catapult { namespace mocks {
 

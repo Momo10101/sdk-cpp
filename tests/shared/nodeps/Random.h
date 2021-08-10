@@ -20,7 +20,7 @@
 **/
 
 #pragma once
-#include "symbolSDK/types.h"
+#include "symbol_sdk/types.h"
 #include <algorithm>
 #include <array>
 #include <string>

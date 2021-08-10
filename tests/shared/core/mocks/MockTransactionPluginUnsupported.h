@@ -21,7 +21,7 @@
 
 #pragma once
 #include "MockTransaction.h"
-#include "symbolSDK/core/model/TransactionPlugin.h"
+#include "symbol_sdk/core/model/TransactionPlugin.h"
 
 namespace catapult { namespace mocks {
 

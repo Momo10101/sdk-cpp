@@ -20,8 +20,8 @@
 **/
 
 #pragma once
-#include "symbolSDK/core/crypto/Hashes.h"
-#include "symbolSDK/core/model/Notifications.h"
+#include "symbol_sdk/core/crypto/Hashes.h"
+#include "symbol_sdk/core/model/Notifications.h"
 
 namespace catapult { namespace test {
 

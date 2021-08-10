@@ -19,12 +19,12 @@
 *** along with Catapult. If not, see <http://www.gnu.org/licenses/>.
 **/
 
-#include "symbolSDK/extended/extensions/BlockExtensions.h"
-#include "symbolSDK/extended/extensions/TransactionExtensions.h"
-#include "symbolSDK/core/crypto/MerkleHashBuilder.h"
-#include "symbolSDK/core/model/BlockUtils.h"
-#include "symbolSDK/core/model/EntityHasher.h"
-#include "symbolSDK/core/utils/HexParser.h"
+#include "symbol_sdk/extended/extensions/BlockExtensions.h"
+#include "symbol_sdk/extended/extensions/TransactionExtensions.h"
+#include "symbol_sdk/core/crypto/MerkleHashBuilder.h"
+#include "symbol_sdk/core/model/BlockUtils.h"
+#include "symbol_sdk/core/model/EntityHasher.h"
+#include "symbol_sdk/core/utils/HexParser.h"
 #include "tests/shared/core/BlockTestUtils.h"
 #include "tests/shared/core/mocks/MockTransactionPluginWithCustomBuffers.h"
 #include "tests/shared/nodeps/KeyTestUtils.h"

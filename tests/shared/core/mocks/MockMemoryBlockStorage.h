@@ -20,8 +20,8 @@
 **/
 
 #pragma once
-#include "symbolSDK/extended/extensions/MemoryBlockStorage.h"
-#include "symbolSDK/core/io/BlockStorageCache.h"
+#include "symbol_sdk/extended/extensions/MemoryBlockStorage.h"
+#include "symbol_sdk/core/io/BlockStorageCache.h"
 
 namespace catapult { namespace mocks {
 

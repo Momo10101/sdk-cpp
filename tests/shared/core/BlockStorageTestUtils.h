@@ -20,7 +20,7 @@
 **/
 
 #pragma once
-#include "symbolSDK/core/io/BlockStorage.h"
+#include "symbol_sdk/core/io/BlockStorage.h"
 
 namespace catapult { namespace test {
 

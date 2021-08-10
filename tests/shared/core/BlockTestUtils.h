@@ -21,8 +21,8 @@
 
 #pragma once
 #include "TransactionTestUtils.h"
-#include "symbolSDK/core/model/Elements.h"
-#include "symbolSDK/core/model/RangeTypes.h"
+#include "symbol_sdk/core/model/Elements.h"
+#include "symbol_sdk/core/model/RangeTypes.h"
 #include <list>
 #include <memory>
 #include <vector>

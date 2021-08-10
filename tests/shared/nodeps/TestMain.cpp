@@ -19,10 +19,10 @@
 *** along with Catapult. If not, see <http://www.gnu.org/licenses/>.
 **/
 
-#include "symbolSDK/core/utils/ConfigurationValueParsers.h"
-#include "symbolSDK/core/utils/Logging.h"
-#include "symbolSDK/version/version.h"
-#include "symbolSDK/preprocessor.h"
+#include "symbol_sdk/core/utils/ConfigurationValueParsers.h"
+#include "symbol_sdk/core/utils/Logging.h"
+#include "symbol_sdk/version/version.h"
+#include "symbol_sdk/preprocessor.h"
 #include "tests/TestHarness.h"
 #include <thread>
 

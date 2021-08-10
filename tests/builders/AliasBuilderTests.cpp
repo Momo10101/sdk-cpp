@@ -19,8 +19,8 @@
 *** along with Catapult. If not, see <http://www.gnu.org/licenses/>.
 **/
 
-#include "symbolSDK/extended/builders/AddressAliasBuilder.h"
-#include "symbolSDK/extended/builders/MosaicAliasBuilder.h"
+#include "symbol_sdk/extended/builders/AddressAliasBuilder.h"
+#include "symbol_sdk/extended/builders/MosaicAliasBuilder.h"
 #include "test/BuilderTestUtils.h"
 
 namespace catapult { namespace builders {

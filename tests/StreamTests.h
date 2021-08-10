@@ -20,7 +20,7 @@
 **/
 
 #pragma once
-#include "symbolSDK/exceptions.h"
+#include "symbol_sdk/exceptions.h"
 #include "TestHarness.h"
 
 namespace catapult { namespace test {
