@@ -20,14 +20,14 @@
 **/
 
 #include "StorageTestUtils.h"
-#include "sdk/src/extensions/BlockExtensions.h"
-#include "catapult/io/FileBlockStorage.h"
-#include "catapult/io/PodIoUtils.h"
-#include "catapult/io/RawFile.h"
-#include "catapult/model/EntityHasher.h"
-#include "tests/test/nodeps/Nemesis.h"
-#include "tests/test/nodeps/TestConstants.h"
-#include "tests/test/nodeps/TestNetworkConstants.h"
+#include "symbol_sdk/extended/extensions/BlockExtensions.h"
+#include "symbol_sdk/core/io/FileBlockStorage.h"
+#include "symbol_sdk/core/io/PodIoUtils.h"
+#include "symbol_sdk/core/io/RawFile.h"
+#include "symbol_sdk/core/model/EntityHasher.h"
+#include "tests/shared/nodeps/Nemesis.h"
+#include "tests/shared/nodeps/TestConstants.h"
+#include "tests/shared/nodeps/TestNetworkConstants.h"
 #include <filesystem>
 
 namespace catapult { namespace test {

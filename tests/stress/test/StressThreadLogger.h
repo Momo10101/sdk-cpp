@@ -20,7 +20,7 @@
 **/
 
 #pragma once
-#include "catapult/utils/StackLogger.h"
+#include "symbol_sdk/core/utils/StackLogger.h"
 
 namespace catapult { namespace test {
 

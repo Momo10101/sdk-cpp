@@ -19,11 +19,11 @@
 *** along with Catapult. If not, see <http://www.gnu.org/licenses/>.
 **/
 
-#include "catapult/model/Address.h"
-#include "catapult/model/NetworkIdentifier.h"
-#include "catapult/utils/HexFormatter.h"
-#include "tests/test/nodeps/KeyTestUtils.h"
-#include "tests/test/nodeps/TestNetworkConstants.h"
+#include "symbol_sdk/core/model/Address.h"
+#include "symbol_sdk/core/model/NetworkIdentifier.h"
+#include "symbol_sdk/core/utils/HexFormatter.h"
+#include "tests/shared/nodeps/KeyTestUtils.h"
+#include "tests/shared/nodeps/TestNetworkConstants.h"
 #include "tests/TestHarness.h"
 
 namespace catapult {

@@ -19,9 +19,9 @@
 *** along with Catapult. If not, see <http://www.gnu.org/licenses/>.
 **/
 
-#include "catapult/io/IndexFile.h"
-#include "catapult/thread/ThreadGroup.h"
-#include "tests/test/nodeps/Filesystem.h"
+#include "symbol_sdk/core/io/IndexFile.h"
+#include "symbol_sdk/core/thread/ThreadGroup.h"
+#include "tests/shared/nodeps/Filesystem.h"
 #include "tests/TestHarness.h"
 
 namespace catapult { namespace io {

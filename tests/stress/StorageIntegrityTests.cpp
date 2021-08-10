@@ -19,16 +19,16 @@
 *** along with Catapult. If not, see <http://www.gnu.org/licenses/>.
 **/
 
-#include "catapult/io/BlockStorageCache.h"
-#include "catapult/io/FileBlockStorage.h"
-#include "catapult/model/BlockUtils.h"
-#include "catapult/thread/ThreadGroup.h"
-#include "catapult/utils/SpinLock.h"
-#include "tests/int/stress/test/StressThreadLogger.h"
-#include "tests/test/core/BlockTestUtils.h"
-#include "tests/test/core/StorageTestUtils.h"
-#include "tests/test/nodeps/Filesystem.h"
-#include "tests/test/nodeps/TestConstants.h"
+#include "symbol_sdk/core/io/BlockStorageCache.h"
+#include "symbol_sdk/core/io/FileBlockStorage.h"
+#include "symbol_sdk/core/model/BlockUtils.h"
+#include "symbol_sdk/core/thread/ThreadGroup.h"
+#include "symbol_sdk/core/utils/SpinLock.h"
+#include "test/StressThreadLogger.h"
+#include "tests/shared/core/BlockTestUtils.h"
+#include "tests/shared/core/StorageTestUtils.h"
+#include "tests/shared/nodeps/Filesystem.h"
+#include "tests/shared/nodeps/TestConstants.h"
 #include "tests/TestHarness.h"
 #include <filesystem>
 
