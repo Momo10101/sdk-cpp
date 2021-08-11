@@ -18,20 +18,26 @@ The sdk code is organized as follows:
 
 ## Compiling the SDK
 
+The instructions for compiling are the exact same as the [catapult-client](https://github.com/symbol/catapult-client/blob/dev/docs/BUILD-conan.md). Below is a quick summary:
+
+- conan remote add nemtech https://catapult.jfrog.io/artifactory/api/conan/ngl-conan
 - git clone https://github.com/symbol/sdk-cpp.git
 - cd sdk-cpp
-- mkdir build
-- cd build
-- cmake ..
-- cmake  --build .
+- mkdir _build && cd _build
+- conan install .. --build missing
+- cmake -DUSE_CONAN=ON -DCMAKE_BUILD_TYPE=Release -G Ninja ..
+- ninja -j4
 
 ## Running unit tests
 
-From the 'build' dir:
+From the '_build' dir:
 
+- export LD_LIBRARY_PATH=$PWD/deps
 - bin/tests.catapult.parsers
 - bin/tests.catapult.extensions
 - bin/tests.catapult.builders
+
+etc.
 
 ## License
 
