@@ -21,7 +21,7 @@
 
 #pragma once
 #include "symbol_sdk/exceptions.h"
-#include "TestHarness.h"
+#include "tests/TestHarness.h"
 
 namespace catapult { namespace test {
 
