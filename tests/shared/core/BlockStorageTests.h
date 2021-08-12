@@ -25,9 +25,9 @@
 #include "BlockTestUtils.h"
 #include "tests/shared/core/mocks/MockMemoryBlockStorage.h"
 #include "tests/shared/core/mocks/MockMemoryStream.h"
-#include "symbol_sdk/core/io/BlockStatementSerializer.h"
-#include "symbol_sdk/core/model/BlockUtils.h"
-#include "symbol_sdk/constants.h"
+#include "symbol/core/io/BlockStatementSerializer.h"
+#include "symbol/core/model/BlockUtils.h"
+#include "symbol/constants.h"
 #include "tests/shared/nodeps/Nemesis.h"
 #include "tests/TestHarness.h"
 #include <numeric>

@@ -19,7 +19,7 @@
 *** along with Catapult. If not, see <http://www.gnu.org/licenses/>.
 **/
 
-#include "symbol_sdk/core/crypto/Hashes.h"
+#include "symbol/core/crypto/Hashes.h"
 #include "tests/bench/nodeps/Random.h"
 #include <benchmark/benchmark.h>
 

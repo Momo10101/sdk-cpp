@@ -20,10 +20,10 @@
 **/
 
 #pragma once
-#include "symbol_sdk/core/model/EntityRange.h"
-#include "symbol_sdk/core/model/VerifiableEntity.h"
-#include "symbol_sdk/core/utils/MemoryUtils.h"
-#include "symbol_sdk/preprocessor.h"
+#include "symbol/core/model/EntityRange.h"
+#include "symbol/core/model/VerifiableEntity.h"
+#include "symbol/core/utils/MemoryUtils.h"
+#include "symbol/preprocessor.h"
 #include "tests/TestHarness.h"
 #include <memory>
 #include <vector>

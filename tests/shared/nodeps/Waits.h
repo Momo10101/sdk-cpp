@@ -20,9 +20,9 @@
 **/
 
 #pragma once
-#include "symbol_sdk/core/utils/Logging.h"
-#include "symbol_sdk/exceptions.h"
-#include "symbol_sdk/functions.h"
+#include "symbol/core/utils/Logging.h"
+#include "symbol/exceptions.h"
+#include "symbol/functions.h"
 #include "tests/TestHarness.h"
 #include <atomic>
 #include <chrono>

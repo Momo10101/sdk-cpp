@@ -20,8 +20,8 @@
 **/
 
 #include "Filesystem.h"
-#include "symbol_sdk/core/utils/Logging.h"
-#include "symbol_sdk/exceptions.h"
+#include "symbol/core/utils/Logging.h"
+#include "symbol/exceptions.h"
 #include <boost/dll.hpp>
 #include <filesystem>
 

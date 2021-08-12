@@ -19,9 +19,9 @@
 *** along with Catapult. If not, see <http://www.gnu.org/licenses/>.
 **/
 
-#include "symbol_sdk/extended/builders/AccountAddressRestrictionBuilder.h"
-#include "symbol_sdk/extended/builders/AccountMosaicRestrictionBuilder.h"
-#include "symbol_sdk/extended/builders/AccountOperationRestrictionBuilder.h"
+#include "symbol/extended/builders/AccountAddressRestrictionBuilder.h"
+#include "symbol/extended/builders/AccountMosaicRestrictionBuilder.h"
+#include "symbol/extended/builders/AccountOperationRestrictionBuilder.h"
 #include "test/BuilderTestUtils.h"
 #include "tests/shared/core/AddressTestUtils.h"
 

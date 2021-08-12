@@ -19,11 +19,11 @@
 *** along with Catapult. If not, see <http://www.gnu.org/licenses/>.
 **/
 
-#include "symbol_sdk/core/io/BlockStorageCache.h"
-#include "symbol_sdk/core/io/FileBlockStorage.h"
-#include "symbol_sdk/core/model/BlockUtils.h"
-#include "symbol_sdk/core/thread/ThreadGroup.h"
-#include "symbol_sdk/core/utils/SpinLock.h"
+#include "symbol/core/io/BlockStorageCache.h"
+#include "symbol/core/io/FileBlockStorage.h"
+#include "symbol/core/model/BlockUtils.h"
+#include "symbol/core/thread/ThreadGroup.h"
+#include "symbol/core/utils/SpinLock.h"
 #include "test/StressThreadLogger.h"
 #include "tests/shared/core/BlockTestUtils.h"
 #include "tests/shared/core/StorageTestUtils.h"

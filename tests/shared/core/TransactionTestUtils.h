@@ -21,8 +21,8 @@
 
 #pragma once
 #include "tests/shared/core/AddressTestUtils.h"
-#include "symbol_sdk/core/model/Cosignature.h"
-#include "symbol_sdk/core/model/RangeTypes.h"
+#include "symbol/core/model/Cosignature.h"
+#include "symbol/core/model/RangeTypes.h"
 #include "tests/TestHarness.h"
 #include <memory>
 #include <vector>

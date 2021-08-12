@@ -19,9 +19,9 @@
 *** along with Catapult. If not, see <http://www.gnu.org/licenses/>.
 **/
 
-#include "symbol_sdk/core/model/Address.h"
-#include "symbol_sdk/core/model/NetworkIdentifier.h"
-#include "symbol_sdk/core/utils/HexFormatter.h"
+#include "symbol/core/model/Address.h"
+#include "symbol/core/model/NetworkIdentifier.h"
+#include "symbol/core/utils/HexFormatter.h"
 #include "tests/shared/nodeps/KeyTestUtils.h"
 #include "tests/shared/nodeps/TestNetworkConstants.h"
 #include "tests/TestHarness.h"

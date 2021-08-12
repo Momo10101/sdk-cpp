@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.14)
-project(symbol_sdk)
+project(symbol)
 option(ENABLE_CODE_COVERAGE "Enable code coverage" OFF)
 option(ENABLE_TESTS "Enable tests" ON)
 

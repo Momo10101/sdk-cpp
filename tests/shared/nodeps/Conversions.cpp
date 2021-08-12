@@ -20,8 +20,8 @@
 **/
 
 #include "Conversions.h"
-#include "symbol_sdk/core/utils/HexFormatter.h"
-#include "symbol_sdk/core/utils/HexParser.h"
+#include "symbol/core/utils/HexFormatter.h"
+#include "symbol/core/utils/HexParser.h"
 #include <sstream>
 
 namespace catapult { namespace test {

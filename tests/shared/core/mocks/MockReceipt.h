@@ -20,7 +20,7 @@
 **/
 
 #pragma once
-#include "symbol_sdk/core/model/Receipt.h"
+#include "symbol/core/model/Receipt.h"
 
 namespace catapult { namespace mocks {
 

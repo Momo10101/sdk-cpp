@@ -20,7 +20,7 @@
 **/
 
 #pragma once
-#include "symbol_sdk/core/model/BlockStatement.h"
+#include "symbol/core/model/BlockStatement.h"
 #include <vector>
 
 namespace catapult { namespace test {

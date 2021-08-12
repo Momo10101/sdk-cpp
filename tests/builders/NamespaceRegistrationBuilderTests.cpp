@@ -19,9 +19,9 @@
 *** along with Catapult. If not, see <http://www.gnu.org/licenses/>.
 **/
 
-#include "symbol_sdk/extended/builders/NamespaceRegistrationBuilder.h"
-#include "symbol_sdk/plugins/txes/namespace/src/model/NamespaceIdGenerator.h"
-#include "symbol_sdk/constants.h"
+#include "symbol/extended/builders/NamespaceRegistrationBuilder.h"
+#include "symbol/plugins/txes/namespace/src/model/NamespaceIdGenerator.h"
+#include "symbol/constants.h"
 #include "test/BuilderTestUtils.h"
 
 namespace catapult { namespace builders {

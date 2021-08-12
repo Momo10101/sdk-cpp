@@ -20,7 +20,7 @@
 **/
 
 #pragma once
-#include "symbol_sdk/core/model/ResolverContext.h"
+#include "symbol/core/model/ResolverContext.h"
 
 namespace catapult { namespace test {
 

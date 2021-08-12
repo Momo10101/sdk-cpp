@@ -19,7 +19,7 @@
 *** along with Catapult. If not, see <http://www.gnu.org/licenses/>.
 **/
 
-#include "symbol_sdk/extended/builders/MosaicGlobalRestrictionBuilder.h"
+#include "symbol/extended/builders/MosaicGlobalRestrictionBuilder.h"
 #include "test/BuilderTestUtils.h"
 
 namespace catapult { namespace builders {

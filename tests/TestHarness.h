@@ -20,7 +20,7 @@
 **/
 
 #pragma once
-#include "symbol_sdk/core/utils/HexFormatter.h"
+#include "symbol/core/utils/HexFormatter.h"
 #include "tests/shared/nodeps/Conversions.h"
 #include "tests/shared/nodeps/Random.h"
 #include "tests/shared/nodeps/Stress.h" /* note that gtest.h is included by Stress.h */

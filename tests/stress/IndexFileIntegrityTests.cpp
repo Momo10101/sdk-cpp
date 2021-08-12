@@ -19,8 +19,8 @@
 *** along with Catapult. If not, see <http://www.gnu.org/licenses/>.
 **/
 
-#include "symbol_sdk/core/io/IndexFile.h"
-#include "symbol_sdk/core/thread/ThreadGroup.h"
+#include "symbol/core/io/IndexFile.h"
+#include "symbol/core/thread/ThreadGroup.h"
 #include "tests/shared/nodeps/Filesystem.h"
 #include "tests/TestHarness.h"
 

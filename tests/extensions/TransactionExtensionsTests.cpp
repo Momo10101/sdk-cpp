@@ -19,9 +19,9 @@
 *** along with Catapult. If not, see <http://www.gnu.org/licenses/>.
 **/
 
-#include "symbol_sdk/extended/extensions/TransactionExtensions.h"
-#include "symbol_sdk/plugins/txes/aggregate/src/model/AggregateTransaction.h"
-#include "symbol_sdk/core/utils/HexParser.h"
+#include "symbol/extended/extensions/TransactionExtensions.h"
+#include "symbol/plugins/txes/aggregate/src/model/AggregateTransaction.h"
+#include "symbol/core/utils/HexParser.h"
 #include "tests/shared/core/EntityTestUtils.h"
 #include "tests/shared/core/TransactionTestUtils.h"
 #include "tests/shared/core/mocks/MockTransaction.h"

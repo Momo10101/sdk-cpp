@@ -20,7 +20,7 @@
 **/
 
 #pragma once
-#include "symbol_sdk/extended/extensions/MemoryStream.h"
+#include "symbol/extended/extensions/MemoryStream.h"
 
 namespace catapult { namespace mocks {
 

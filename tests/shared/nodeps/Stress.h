@@ -20,8 +20,8 @@
 **/
 
 #pragma once
-#include "symbol_sdk/core/utils/ExceptionLogging.h"
-#include "symbol_sdk/core/utils/Logging.h"
+#include "symbol/core/utils/ExceptionLogging.h"
+#include "symbol/core/utils/Logging.h"
 #include <sstream>
 #include <gtest/gtest.h>
 

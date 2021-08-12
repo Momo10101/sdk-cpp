@@ -19,10 +19,10 @@
 *** along with Catapult. If not, see <http://www.gnu.org/licenses/>.
 **/
 
-#include "symbol_sdk/extended/builders/TransferBuilder.h"
-#include "symbol_sdk/extended/extensions/ConversionExtensions.h"
-#include "symbol_sdk/extended/extensions/IdGenerator.h"
-#include "symbol_sdk/core/crypto/Hashes.h"
+#include "symbol/extended/builders/TransferBuilder.h"
+#include "symbol/extended/extensions/ConversionExtensions.h"
+#include "symbol/extended/extensions/IdGenerator.h"
+#include "symbol/core/crypto/Hashes.h"
 #include "test/BuilderTestUtils.h"
 #include <map>
 

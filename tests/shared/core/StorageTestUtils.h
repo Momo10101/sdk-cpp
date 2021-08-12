@@ -20,7 +20,7 @@
 **/
 
 #pragma once
-#include "symbol_sdk/functions.h"
+#include "symbol/functions.h"
 #include <string>
 
 namespace catapult {

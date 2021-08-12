@@ -19,9 +19,9 @@
 *** along with Catapult. If not, see <http://www.gnu.org/licenses/>.
 **/
 
-#include "symbol_sdk/extended/builders/MosaicDefinitionBuilder.h"
-#include "symbol_sdk/plugins/txes/mosaic/src/model/MosaicIdGenerator.h"
-#include "symbol_sdk/constants.h"
+#include "symbol/extended/builders/MosaicDefinitionBuilder.h"
+#include "symbol/plugins/txes/mosaic/src/model/MosaicIdGenerator.h"
+#include "symbol/constants.h"
 #include "test/BuilderTestUtils.h"
 
 namespace catapult { namespace builders {

@@ -19,9 +19,9 @@
 *** along with Catapult. If not, see <http://www.gnu.org/licenses/>.
 **/
 
-#include "symbol_sdk/extended/extensions/IdGenerator.h"
-#include "symbol_sdk/plugins/txes/mosaic/src/model/MosaicIdGenerator.h"
-#include "symbol_sdk/plugins/txes/namespace/src/model/NamespaceIdGenerator.h"
+#include "symbol/extended/extensions/IdGenerator.h"
+#include "symbol/plugins/txes/mosaic/src/model/MosaicIdGenerator.h"
+#include "symbol/plugins/txes/namespace/src/model/NamespaceIdGenerator.h"
 #include "tests/shared/nodeps/TestConstants.h"
 #include "tests/TestHarness.h"
 

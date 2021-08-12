@@ -20,7 +20,7 @@
 **/
 
 #include "MockMemoryStream.h"
-#include "symbol_sdk/exceptions.h"
+#include "symbol/exceptions.h"
 
 namespace catapult { namespace mocks {
 

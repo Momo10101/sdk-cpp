@@ -20,8 +20,8 @@
 **/
 
 #include "tests/shared/core/AddressTestUtils.h"
-#include "symbol_sdk/extended/extensions/ConversionExtensions.h"
-#include "symbol_sdk/core/model/Address.h"
+#include "symbol/extended/extensions/ConversionExtensions.h"
+#include "symbol/core/model/Address.h"
 #include "tests/shared/nodeps/Random.h"
 
 namespace catapult { namespace test {

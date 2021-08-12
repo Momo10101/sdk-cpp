@@ -21,12 +21,12 @@
 
 #include "TransactionTestUtils.h"
 #include "EntityTestUtils.h"
-#include "symbol_sdk/extended/extensions/TransactionExtensions.h"
+#include "symbol/extended/extensions/TransactionExtensions.h"
 #include "mocks/MockTransaction.h"
-#include "symbol_sdk/core/crypto/Signer.h"
-#include "symbol_sdk/core/model/VerifiableEntity.h"
-#include "symbol_sdk/core/utils/HexParser.h"
-#include "symbol_sdk/preprocessor.h"
+#include "symbol/core/crypto/Signer.h"
+#include "symbol/core/model/VerifiableEntity.h"
+#include "symbol/core/utils/HexParser.h"
+#include "symbol/preprocessor.h"
 #include "tests/shared/nodeps/KeyTestUtils.h"
 #include "tests/shared/nodeps/TestConstants.h"
 #include <memory>

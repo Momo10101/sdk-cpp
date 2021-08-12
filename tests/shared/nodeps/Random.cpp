@@ -20,7 +20,7 @@
 **/
 
 #include "Random.h"
-#include "symbol_sdk/core/utils/RandomGenerator.h"
+#include "symbol/core/utils/RandomGenerator.h"
 
 namespace catapult { namespace test {
 

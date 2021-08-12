@@ -20,11 +20,11 @@
 **/
 
 #include "StorageTestUtils.h"
-#include "symbol_sdk/extended/extensions/BlockExtensions.h"
-#include "symbol_sdk/core/io/FileBlockStorage.h"
-#include "symbol_sdk/core/io/PodIoUtils.h"
-#include "symbol_sdk/core/io/RawFile.h"
-#include "symbol_sdk/core/model/EntityHasher.h"
+#include "symbol/extended/extensions/BlockExtensions.h"
+#include "symbol/core/io/FileBlockStorage.h"
+#include "symbol/core/io/PodIoUtils.h"
+#include "symbol/core/io/RawFile.h"
+#include "symbol/core/model/EntityHasher.h"
 #include "tests/shared/nodeps/Nemesis.h"
 #include "tests/shared/nodeps/TestConstants.h"
 #include "tests/shared/nodeps/TestNetworkConstants.h"

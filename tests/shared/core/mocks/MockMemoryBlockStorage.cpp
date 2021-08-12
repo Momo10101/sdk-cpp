@@ -20,7 +20,7 @@
 **/
 
 #include "MockMemoryBlockStorage.h"
-#include "symbol_sdk/preprocessor.h"
+#include "symbol/preprocessor.h"
 #include "tests/shared/core/BlockTestUtils.h"
 #include "tests/shared/nodeps/Nemesis.h"
 

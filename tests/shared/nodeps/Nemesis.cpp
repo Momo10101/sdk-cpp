@@ -22,7 +22,7 @@
 #include "Nemesis.h"
 #include "Conversions.h"
 #include "data/NemesisMemoryBlockStorage_data.h"
-#include "symbol_sdk/core/utils/HexParser.h"
+#include "symbol/core/utils/HexParser.h"
 
 namespace catapult { namespace test {
 
