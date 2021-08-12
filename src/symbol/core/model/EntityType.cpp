@@ -49,17 +49,17 @@ namespace catapult { namespace model {
 			CASE_WELL_KNOWN_ENTITY_TYPE(Vrf_Key_Link);
 
 			// plugin entity types
-			#include "symbol/plugins/txes/account_link/src/model/AccountLinkEntityType.h"
-			#include "symbol/plugins/txes/aggregate/src/model/AggregateEntityType.h"
-			#include "symbol/plugins/txes/lock_hash/src/model/HashLockEntityType.h"
-			#include "symbol/plugins/txes/lock_secret/src/model/SecretLockEntityType.h"
-			#include "symbol/plugins/txes/metadata/src/model/MetadataEntityType.h"
-			#include "symbol/plugins/txes/mosaic/src/model/MosaicEntityType.h"
-			#include "symbol/plugins/txes/multisig/src/model/MultisigEntityType.h"
-			#include "symbol/plugins/txes/namespace/src/model/NamespaceEntityType.h"
-			#include "symbol/plugins/txes/restriction_account/src/model/AccountRestrictionEntityType.h"
-			#include "symbol/plugins/txes/restriction_mosaic/src/model/MosaicRestrictionEntityType.h"
-			#include "symbol/plugins/txes/transfer/src/model/TransferEntityType.h"
+			#include "symbol/txes/account_link/AccountLinkEntityType.h"
+			#include "symbol/txes/aggregate/AggregateEntityType.h"
+			#include "symbol/txes/lock_hash/HashLockEntityType.h"
+			#include "symbol/txes/lock_secret/SecretLockEntityType.h"
+			#include "symbol/txes/metadata/MetadataEntityType.h"
+			#include "symbol/txes/mosaic/MosaicEntityType.h"
+			#include "symbol/txes/multisig/MultisigEntityType.h"
+			#include "symbol/txes/namespace/NamespaceEntityType.h"
+			#include "symbol/txes/restriction_account/AccountRestrictionEntityType.h"
+			#include "symbol/txes/restriction_mosaic/MosaicRestrictionEntityType.h"
+			#include "symbol/txes/transfer/TransferEntityType.h"
 			}
 
 			return nullptr;

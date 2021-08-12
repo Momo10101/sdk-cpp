@@ -21,7 +21,7 @@
 
 #pragma once
 #include "TransactionBuilder.h"
-#include "symbol/plugins/txes/metadata/src/model/MosaicMetadataTransaction.h"
+#include "symbol/txes/metadata/MosaicMetadataTransaction.h"
 
 namespace catapult { namespace builders {
 

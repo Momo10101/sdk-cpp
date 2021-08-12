@@ -7,5 +7,5 @@ include_directories( . )
 add_subdirectory( core )
 add_subdirectory( extended )
 add_subdirectory( version )
-add_subdirectory( plugins )
+add_subdirectory( txes )
 

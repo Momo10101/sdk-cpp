@@ -21,7 +21,7 @@
 
 #pragma once
 #include "TransactionBuilder.h"
-#include "symbol/plugins/txes/../coresystem/src/model/VotingKeyLinkTransaction.h"
+#include "symbol/txes/coresystem/VotingKeyLinkTransaction.h"
 
 namespace catapult { namespace builders {
 

@@ -20,7 +20,7 @@
 **/
 
 #include "TransactionExtensions.h"
-#include "symbol/plugins/txes/aggregate/src/model/AggregateTransaction.h"
+#include "symbol/txes/aggregate/AggregateTransaction.h"
 #include "symbol/core/crypto/Signer.h"
 #include "symbol/core/model/EntityHasher.h"
 

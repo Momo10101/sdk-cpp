@@ -21,7 +21,7 @@
 
 #pragma once
 #include "TransactionBuilder.h"
-#include "symbol/plugins/txes/transfer/src/model/TransferTransaction.h"
+#include "symbol/txes/transfer/TransferTransaction.h"
 #include <vector>
 
 namespace catapult { namespace builders {

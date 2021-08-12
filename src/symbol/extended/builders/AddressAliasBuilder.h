@@ -21,7 +21,7 @@
 
 #pragma once
 #include "TransactionBuilder.h"
-#include "symbol/plugins/txes/namespace/src/model/AddressAliasTransaction.h"
+#include "symbol/txes/namespace/AddressAliasTransaction.h"
 
 namespace catapult { namespace builders {
 

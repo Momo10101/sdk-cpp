@@ -21,7 +21,7 @@
 
 #pragma once
 #include "TransactionBuilder.h"
-#include "symbol/plugins/txes/aggregate/src/model/AggregateTransaction.h"
+#include "symbol/txes/aggregate/AggregateTransaction.h"
 #include "symbol/core/crypto/KeyPair.h"
 #include <vector>
 

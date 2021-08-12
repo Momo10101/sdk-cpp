@@ -20,5 +20,5 @@
 **/
 
 #pragma once
-#include "symbol/plugins/txes/namespace/src/constants.h"
-#include "symbol/plugins/txes/namespace/src/types.h"
+#include "symbol/txes/namespace/constants.h"
+#include "symbol/txes/namespace/types.h"

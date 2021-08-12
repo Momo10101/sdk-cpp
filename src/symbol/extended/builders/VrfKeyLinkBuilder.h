@@ -21,7 +21,7 @@
 
 #pragma once
 #include "TransactionBuilder.h"
-#include "symbol/plugins/txes/../coresystem/src/model/VrfKeyLinkTransaction.h"
+#include "symbol/txes/coresystem/VrfKeyLinkTransaction.h"
 
 namespace catapult { namespace builders {
 

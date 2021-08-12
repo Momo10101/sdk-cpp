@@ -20,7 +20,7 @@
 **/
 
 #include "MosaicDefinitionBuilder.h"
-#include "symbol/plugins/txes/mosaic/src/model/MosaicIdGenerator.h"
+#include "symbol/txes/mosaic/MosaicIdGenerator.h"
 
 namespace catapult { namespace builders {
 

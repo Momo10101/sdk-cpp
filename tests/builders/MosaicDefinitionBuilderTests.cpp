@@ -20,7 +20,7 @@
 **/
 
 #include "symbol/extended/builders/MosaicDefinitionBuilder.h"
-#include "symbol/plugins/txes/mosaic/src/model/MosaicIdGenerator.h"
+#include "symbol/txes/mosaic/MosaicIdGenerator.h"
 #include "symbol/constants.h"
 #include "test/BuilderTestUtils.h"
 

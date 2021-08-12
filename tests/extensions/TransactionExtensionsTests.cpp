@@ -20,7 +20,7 @@
 **/
 
 #include "symbol/extended/extensions/TransactionExtensions.h"
-#include "symbol/plugins/txes/aggregate/src/model/AggregateTransaction.h"
+#include "symbol/txes/aggregate/AggregateTransaction.h"
 #include "symbol/core/utils/HexParser.h"
 #include "tests/shared/core/EntityTestUtils.h"
 #include "tests/shared/core/TransactionTestUtils.h"

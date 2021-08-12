@@ -20,8 +20,8 @@
 **/
 
 #pragma once
-#include "symbol/plugins/txes/metadata/src/state/MetadataKey.h"
-#include "symbol/plugins/txes/namespace/src/types.h"
+#include "symbol/txes/metadata/MetadataKey.h"
+#include "symbol/txes/namespace/types.h"
 #include "symbol/core/ionet/PackedNodeInfo.h"
 #include "symbol/core/model/CacheEntryInfo.h"
 #include "symbol/core/model/DiagnosticCounterValue.h"

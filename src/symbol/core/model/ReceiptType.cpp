@@ -48,10 +48,10 @@ namespace catapult { namespace model {
 			CASE_WELL_KNOWN_RECEIPT_TYPE(Mosaic_Alias_Resolution);
 
 			// plugin receipt types
-			#include "symbol/plugins/txes/lock_hash/src/model/HashLockReceiptType.h"
-			#include "symbol/plugins/txes/lock_secret/src/model/SecretLockReceiptType.h"
-			#include "symbol/plugins/txes/mosaic/src/model/MosaicReceiptType.h"
-			#include "symbol/plugins/txes/namespace/src/model/NamespaceReceiptType.h"
+			#include "symbol/txes/lock_hash/HashLockReceiptType.h"
+			#include "symbol/txes/lock_secret/SecretLockReceiptType.h"
+			#include "symbol/txes/mosaic/MosaicReceiptType.h"
+			#include "symbol/txes/namespace/NamespaceReceiptType.h"
 			}
 
 			return nullptr;

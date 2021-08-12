@@ -20,4 +20,4 @@
 **/
 
 #pragma once
-#include "symbol/plugins/txes/mosaic/src/types.h"
+#include "symbol/txes/mosaic/types.h"

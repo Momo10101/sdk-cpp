@@ -20,7 +20,7 @@
 **/
 
 #pragma once
-#include "symbol/plugins/txes/namespace/src/model/NamespaceConstants.h"
+#include "symbol/txes/namespace/NamespaceConstants.h"
 #include "symbol/core/utils/CheckedArray.h"
 #include "symbol/types.h"
 

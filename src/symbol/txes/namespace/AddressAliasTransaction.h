@@ -20,36 +20,42 @@
 **/
 
 #pragma once
-#include "MetadataEntityType.h"
-#include "MetadataSharedTransaction.h"
-#include "symbol/plugins/txes/namespace/src/types.h"
-#include "symbol/core/model/ContainerTypes.h"
-#include "symbol/core/utils/ArraySet.h"
+#include "NamespaceEntityType.h"
+#include "NamespaceTypes.h"
+#include "symbol/txes/namespace/types.h"
+#include "symbol/core/model/Transaction.h"
 
 namespace catapult { namespace model {
 
 #pragma pack(push, 1)
 
-	/// Metadata transaction header with namespace id target.
+	/// Binary layout for an address alias transaction body.
 	template<typename THeader>
-	struct NamespaceMetadataTransactionHeader : public MetadataTransactionHeader<THeader> {
-		/// Target namespace identifier.
-		NamespaceId TargetNamespaceId;
+	struct AddressAliasTransactionBody : public THeader {
+	private:
+		using TransactionType = AddressAliasTransactionBody<THeader>;
+
+	public:
+		DEFINE_TRANSACTION_CONSTANTS(Entity_Type_Alias_Address, 1)
+
+	public:
+		/// Identifier of the namespace that will become an alias.
+		catapult::NamespaceId NamespaceId;
+
+		/// Aliased address.
+		catapult::Address Address;
+
+		/// Alias action.
+		model::AliasAction AliasAction;
+
+	public:
+		/// Calculates the real size of address alias \a transaction.
+		static constexpr uint64_t CalculateRealSize(const TransactionType&) noexcept {
+			return sizeof(TransactionType);
+		}
 	};
 
-	/// Binary layout for a namespace metadata transaction body.
-	template<typename THeader>
-	struct NamespaceMetadataTransactionBody
-			: public BasicMetadataTransactionBody<NamespaceMetadataTransactionHeader<THeader>, Entity_Type_Namespace_Metadata>
-	{};
-
-	DEFINE_EMBEDDABLE_TRANSACTION(NamespaceMetadata)
+	DEFINE_EMBEDDABLE_TRANSACTION(AddressAlias)
 
 #pragma pack(pop)
-
-	/// Extracts addresses of additional accounts that must approve \a transaction.
-	inline UnresolvedAddressSet ExtractAdditionalRequiredCosignatories(const EmbeddedNamespaceMetadataTransaction& transaction) {
-		return { transaction.TargetAddress };
-	}
 }}
-

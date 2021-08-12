@@ -21,7 +21,7 @@
 
 #pragma once
 #include "TransactionBuilder.h"
-#include "symbol/plugins/txes/lock_secret/src/model/SecretLockTransaction.h"
+#include "symbol/txes/lock_secret/SecretLockTransaction.h"
 
 namespace catapult { namespace builders {
 

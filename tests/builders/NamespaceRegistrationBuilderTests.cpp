@@ -20,7 +20,7 @@
 **/
 
 #include "symbol/extended/builders/NamespaceRegistrationBuilder.h"
-#include "symbol/plugins/txes/namespace/src/model/NamespaceIdGenerator.h"
+#include "symbol/txes/namespace/NamespaceIdGenerator.h"
 #include "symbol/constants.h"
 #include "test/BuilderTestUtils.h"
 

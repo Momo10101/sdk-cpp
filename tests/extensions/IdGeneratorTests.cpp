@@ -20,8 +20,8 @@
 **/
 
 #include "symbol/extended/extensions/IdGenerator.h"
-#include "symbol/plugins/txes/mosaic/src/model/MosaicIdGenerator.h"
-#include "symbol/plugins/txes/namespace/src/model/NamespaceIdGenerator.h"
+#include "symbol/txes/mosaic/MosaicIdGenerator.h"
+#include "symbol/txes/namespace/NamespaceIdGenerator.h"
 #include "tests/shared/nodeps/TestConstants.h"
 #include "tests/TestHarness.h"
 
