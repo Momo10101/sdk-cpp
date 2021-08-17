@@ -20,7 +20,7 @@
 **/
 
 #pragma once
-#include "symbol/txes/metadata/MetadataTypes.h"
+#include "MetadataTypes.h"
 #include "symbol/txes/namespace/types.h"
 #include <vector>
 

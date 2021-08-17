@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.14)
 
-include_directories( ${PROJECT_SOURCE_DIR} ${PROJECT_SOURCE_DIR}/src )
+include_directories( ${PROJECT_SOURCE_DIR} ${PROJECT_SOURCE_DIR}/src ${PROJECT_SOURCE_DIR}/src/symbol/extended )
 
 # used to define a catapult int test executable by combining catapult_test_executable and catapult_target
 function(catapult_int_test_executable_target TARGET_NAME)

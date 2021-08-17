@@ -24,11 +24,11 @@
 #include "symbol/core/model/BlockUtils.h"
 #include "symbol/core/thread/ThreadGroup.h"
 #include "symbol/core/utils/SpinLock.h"
-#include "test/StressThreadLogger.h"
 #include "tests/shared/core/BlockTestUtils.h"
 #include "tests/shared/core/StorageTestUtils.h"
 #include "tests/shared/nodeps/Filesystem.h"
 #include "tests/shared/nodeps/TestConstants.h"
+#include "tests/stress/test/StressThreadLogger.h"
 #include "tests/TestHarness.h"
 #include <filesystem>
 

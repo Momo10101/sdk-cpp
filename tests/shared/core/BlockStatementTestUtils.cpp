@@ -20,9 +20,9 @@
 **/
 
 #include "BlockStatementTestUtils.h"
+#include "symbol/core/io/BlockStatementSerializer.h"
 #include "tests/shared/core/mocks/MockMemoryStream.h"
 #include "tests/shared/core/mocks/MockReceipt.h"
-#include "symbol/core/io/BlockStatementSerializer.h"
 #include "tests/TestHarness.h"
 
 namespace catapult { namespace test {

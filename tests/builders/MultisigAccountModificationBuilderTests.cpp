@@ -19,8 +19,8 @@
 *** along with Catapult. If not, see <http://www.gnu.org/licenses/>.
 **/
 
-#include "symbol/extended/builders/MultisigAccountModificationBuilder.h"
-#include "test/BuilderTestUtils.h"
+#include "builders/MultisigAccountModificationBuilder.h"
+#include "tests/builders/test/BuilderTestUtils.h"
 
 namespace catapult { namespace builders {
 

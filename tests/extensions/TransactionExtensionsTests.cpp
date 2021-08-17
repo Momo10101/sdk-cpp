@@ -19,7 +19,7 @@
 *** along with Catapult. If not, see <http://www.gnu.org/licenses/>.
 **/
 
-#include "symbol/extended/extensions/TransactionExtensions.h"
+#include "extensions/TransactionExtensions.h"
 #include "symbol/txes/aggregate/AggregateTransaction.h"
 #include "symbol/core/utils/HexParser.h"
 #include "tests/shared/core/EntityTestUtils.h"

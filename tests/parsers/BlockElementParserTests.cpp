@@ -19,7 +19,7 @@
 *** along with Catapult. If not, see <http://www.gnu.org/licenses/>.
 **/
 
-#include "symbol/extended/parsers/BlockElementParser.h"
+#include "parsers/BlockElementParser.h"
 #include "tests/shared/core/BlockTestUtils.h"
 #include "tests/TestHarness.h"
 

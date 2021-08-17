@@ -19,7 +19,7 @@
 *** along with Catapult. If not, see <http://www.gnu.org/licenses/>.
 **/
 
-#include "symbol/extended/extensions/IdGenerator.h"
+#include "extensions/IdGenerator.h"
 #include "symbol/txes/mosaic/MosaicIdGenerator.h"
 #include "symbol/txes/namespace/NamespaceIdGenerator.h"
 #include "tests/shared/nodeps/TestConstants.h"

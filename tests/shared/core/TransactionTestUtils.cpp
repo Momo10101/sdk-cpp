@@ -21,8 +21,8 @@
 
 #include "TransactionTestUtils.h"
 #include "EntityTestUtils.h"
-#include "symbol/extended/extensions/TransactionExtensions.h"
 #include "mocks/MockTransaction.h"
+#include "symbol/extended/extensions/TransactionExtensions.h"
 #include "symbol/core/crypto/Signer.h"
 #include "symbol/core/model/VerifiableEntity.h"
 #include "symbol/core/utils/HexParser.h"

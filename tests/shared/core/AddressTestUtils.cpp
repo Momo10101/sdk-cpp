@@ -19,7 +19,7 @@
 *** along with Catapult. If not, see <http://www.gnu.org/licenses/>.
 **/
 
-#include "tests/shared/core/AddressTestUtils.h"
+#include "AddressTestUtils.h"
 #include "symbol/extended/extensions/ConversionExtensions.h"
 #include "symbol/core/model/Address.h"
 #include "tests/shared/nodeps/Random.h"

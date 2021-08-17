@@ -19,7 +19,7 @@
 *** along with Catapult. If not, see <http://www.gnu.org/licenses/>.
 **/
 
-#include "symbol/extended/extensions/MemoryStream.h"
+#include "extensions/MemoryStream.h"
 #include "tests/shared/core/StreamTests.h"
 #include "tests/TestHarness.h"
 

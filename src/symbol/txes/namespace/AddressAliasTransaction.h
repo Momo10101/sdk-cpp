@@ -22,7 +22,7 @@
 #pragma once
 #include "NamespaceEntityType.h"
 #include "NamespaceTypes.h"
-#include "symbol/txes/namespace/types.h"
+#include "types.h"
 #include "symbol/core/model/Transaction.h"
 
 namespace catapult { namespace model {

@@ -19,11 +19,11 @@
 *** along with Catapult. If not, see <http://www.gnu.org/licenses/>.
 **/
 
-#include "symbol/extended/builders/TransferBuilder.h"
-#include "symbol/extended/extensions/ConversionExtensions.h"
-#include "symbol/extended/extensions/IdGenerator.h"
+#include "builders/TransferBuilder.h"
+#include "extensions/ConversionExtensions.h"
+#include "extensions/IdGenerator.h"
 #include "symbol/core/crypto/Hashes.h"
-#include "test/BuilderTestUtils.h"
+#include "tests/builders/test/BuilderTestUtils.h"
 #include <map>
 
 namespace catapult { namespace builders {
