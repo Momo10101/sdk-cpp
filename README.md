@@ -9,17 +9,18 @@ The sdk code is organized as follows:
 | Folder name | Description |
 | -------------|--------------|
 | /external | External dependencies that are built with the sdk. |
-| /src/symbolSDK/core | The core SDK functionality with no external dependencies |
-| /src/symbolSDK/extended | The extended SDK functionality with dependencies on core |
-| /src/symbolSDK/plugins | Modules that introduce new and different ways to alter the chain's state via transactions. |
+| /src/symbol/core | The core SDK functionality with no external dependencies |
+| /src/symbol/extended | The extended SDK functionality with dependencies on core |
+| /src/symbol/txes | Modules that introduce new and different ways to alter the chain's state via transactions. |
 | /tests | Collection of unit tests that test the sdk functionality. |
-| /delete | Temporary, will be deleted soon. Contains code from catapult-client.|
 
 
 ## Compiling the SDK
 
 The instructions for compiling are the exact same as the [catapult-client](https://github.com/symbol/catapult-client/blob/dev/docs/BUILD-conan.md). Below is a quick summary:
 
+- pip install conan
+- source ~/.profile
 - conan remote add nemtech https://catapult.jfrog.io/artifactory/api/conan/ngl-conan
 - git clone https://github.com/symbol/sdk-cpp.git
 - cd sdk-cpp
@@ -38,6 +39,11 @@ From the '_build' dir:
 - bin/tests.catapult.builders
 
 etc.
+
+
+## Contributing
+
+Before contributing please [read this](https://github.com/symbol/catapult-client/blob/dev/CONTRIBUTING.md).
 
 ## License
 
