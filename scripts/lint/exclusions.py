@@ -48,7 +48,6 @@ LONGLINES_FALSEPOSITIVES = (
 
 SPECIAL_INCLUDES = (
     # src (these include double quotes because they have to match what is after `#include `)
-    re.compile(r'"catapult/utils/MacroBasedEnum\.h"'),
     re.compile(r'"symbol/core/utils/MacroBasedEnum\.h"'),
     re.compile(r'"ReentrancyCheckReaderNotificationPolicy.h"'),
 
