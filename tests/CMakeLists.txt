@@ -16,8 +16,9 @@ endfunction()
 
 
 
-add_subdirectory(shared)
 add_subdirectory(bench)
+add_subdirectory(model)
+add_subdirectory(shared)
 add_subdirectory(stress)
 
 catapult_test_executable_target(tests.catapult.builders core builders)
