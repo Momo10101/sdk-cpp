@@ -17,9 +17,11 @@ endfunction()
 
 
 add_subdirectory(bench)
+add_subdirectory(crypto)
 add_subdirectory(model)
 add_subdirectory(shared)
 add_subdirectory(stress)
+add_subdirectory(utils)
 
 catapult_test_executable_target(tests.catapult.builders core builders)
 catapult_test_executable_target(tests.catapult.extensions core extensions)
