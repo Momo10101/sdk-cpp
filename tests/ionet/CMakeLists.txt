@@ -1,0 +1,18 @@
+cmake_minimum_required(VERSION 3.14)
+
+
+
+
+catapult_test_executable_target(tests.catapult.ionet net)
+catapult_add_openssl_dependencies(tests.catapult.ionet)
+
+
+target_link_libraries(tests.catapult.ionet
+  catapult.extensions
+	catapult.plugins.namespace
+  catapult.plugins.aggregate
+  catapult.plugins.mosaic
+	catapult.plugins.namespace
+
+  )
+
