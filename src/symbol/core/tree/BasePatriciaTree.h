@@ -21,8 +21,8 @@
 
 #pragma once
 #include "BasePatriciaTreeDelta.h"
-#include "catapult/utils/HexFormatter.h"
-#include "catapult/exceptions.h"
+#include "symbol/core/utils/HexFormatter.h"
+#include "symbol/exceptions.h"
 
 namespace catapult { namespace tree {
 

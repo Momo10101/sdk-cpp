@@ -19,17 +19,35 @@
 *** along with Catapult. If not, see <http://www.gnu.org/licenses/>.
 **/
 
-#include "TimestampedHash.h"
-#include "catapult/utils/HexFormatter.h"
+#pragma once
+#include "symbol/core/crypto/Hashes.h"
+#include "symbol/types.h"
+#include <string>
 
-namespace catapult { namespace state {
+namespace catapult { namespace test {
 
-	RawBuffer SerializeKey(const TimestampedHash& timestampedHash) {
-		return { reinterpret_cast<const uint8_t*>(&timestampedHash), sizeof(timestampedHash) };
-	}
+	/// Patricia tree pass-through encoder.
+	class PassThroughEncoder {
+	public:
+		using KeyType = uint32_t;
+		using ValueType = std::string;
 
-	std::ostream& operator<<(std::ostream& out, const TimestampedHash& timestampedHash) {
-		out << utils::HexFormat(timestampedHash.Hash) << " @ " << timestampedHash.Time;
-		return out;
-	}
+	public:
+		/// Encodes \a key.
+		static const KeyType& EncodeKey(const KeyType& key) {
+			return key;
+		}
+
+		/// Encodes \a value.
+		static Hash256 EncodeValue(const ValueType& value) {
+			Hash256 valueHash;
+			crypto::Sha3_256(StringToBuffer(value), valueHash);
+			return valueHash;
+		}
+
+	private:
+		static RawBuffer StringToBuffer(const std::string& str) {
+			return { reinterpret_cast<const uint8_t*>(str.data()), str.size() };
+		}
+	};
 }}

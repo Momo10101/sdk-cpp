@@ -24,6 +24,7 @@ add_subdirectory(model)
 add_subdirectory(shared)
 add_subdirectory(stress)
 add_subdirectory(thread)
+add_subdirectory(tree)
 add_subdirectory(utils)
 
 catapult_test_executable_target(tests.catapult.builders core builders)
