@@ -72,14 +72,23 @@ CORE_FIRSTINCLUDES = {
     'src/symbol/version/nix/what_version.cpp': 'symbol/version/version.h',
 
     # sdk
-    'tests/builders/AliasBuilderTests.cpp':              'builders/AddressAliasBuilder.h',
-    'tests/builders/AccountRestrictionBuilderTests.cpp': 'builders/AccountAddressRestrictionBuilder.h',
-    'tests/builders/KeyLinkBuilderTests.cpp':            'builders/AccountKeyLinkBuilder.h',
-    'tests/builders/MetadataBuilderTests.cpp':           'builders/AccountMetadataBuilder.h',
+    'tests/symbol/extended/builders/AliasBuilderTests.cpp':              'symbol/extended/builders/AddressAliasBuilder.h',
+    'tests/symbol/extended/builders/AccountRestrictionBuilderTests.cpp': 'symbol/extended/builders/AccountAddressRestrictionBuilder.h',
+    'tests/symbol/extended/builders/KeyLinkBuilderTests.cpp':            'symbol/extended/builders/AccountKeyLinkBuilder.h',
+    'tests/symbol/extended/builders/MetadataBuilderTests.cpp':           'symbol/extended/builders/AccountMetadataBuilder.h',
 
 
     # tests
     'tests/shared/nodeps/TestMain.cpp': 'symbol/core/utils/ConfigurationValueParsers.h',
+    'tests/symbol/core/thread/FutureSharedStateTests.cpp': 'symbol/core/thread/detail/FutureSharedState.h',
+
+    'tests/symbol/core/utils/CatapultExceptionTests.cpp': 'symbol/exceptions.h',
+    'tests/symbol/core/utils/CatapultTypesTests.cpp':     'symbol/types.h',
+    'tests/symbol/core/utils/CountOfTests.cpp':           'symbol/types.h',
+    'tests/symbol/core/utils/MacroBasedEnumTests.cpp':    'symbol/core/utils/MacroBasedEnumIncludes.h',
+    'tests/symbol/core/utils/TraitsTests.cpp':            'symbol/core/utils/traits/Traits.h',
+    'tests/symbol/core/utils/StlTraitsTests.cpp':         'symbol/core/utils/traits/StlTraits.h'
+
 }
 
 PLUGINS_FIRSTINCLUDES = {
