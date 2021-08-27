@@ -31,6 +31,3 @@ namespace catapult {
 	/// Base id for namespaces.
 	constexpr NamespaceId Namespace_Base_Id(0);
 }
-
-
-

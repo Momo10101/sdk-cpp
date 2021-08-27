@@ -20,9 +20,9 @@
 **/
 
 #pragma once
+#include "NamespaceConstants.h"
 #include "NamespaceEntityType.h"
 #include "NamespaceTypes.h"
-#include "NamespaceConstants.h"
 #include "symbol/core/model/Transaction.h"
 
 namespace catapult { namespace model {
