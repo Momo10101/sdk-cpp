@@ -22,7 +22,7 @@
 #pragma once
 #include "MetadataEntityType.h"
 #include "MetadataSharedTransaction.h"
-#include "symbol/txes/namespace/types.h"
+#include "symbol/txes/namespace/NamespaceConstants.h"
 #include "symbol/core/model/ContainerTypes.h"
 #include "symbol/core/utils/ArraySet.h"
 

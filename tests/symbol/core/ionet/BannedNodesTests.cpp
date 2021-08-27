@@ -20,7 +20,6 @@
 **/
 
 #include "symbol/core/ionet/BannedNodes.h"
-#include "symbol/core/config/NodeConfiguration.h"
 #include "tests/shared/nodeps/TimeSupplier.h"
 #include "tests/TestHarness.h"
 

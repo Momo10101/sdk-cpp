@@ -26,7 +26,7 @@
 
 namespace catapult { namespace model { class ResolverContext; } }
 
-namespace catapult { namespace state {
+namespace catapult { namespace model {
 
 	/// Metadata key.
 	class MetadataKey {

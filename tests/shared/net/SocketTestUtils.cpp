@@ -233,10 +233,10 @@ namespace catapult { namespace test {
 
 	ionet::PacketSocketOptions CreatePacketSocketOptions(const Key& publicKey) {
 		ionet::PacketSocketOptions options;
-		options.AcceptHandshakeTimeout = utils::TimeSpan::FromSeconds(10);
+		options.AcceptHandshakeTimeout = utils::TimeSpan::FromSeconds(60);
 		options.WorkingBufferSize = utils::FileSize::FromKilobytes(4).bytes();
 		options.WorkingBufferSensitivity = 0;
-		options.MaxPacketDataSize = utils::FileSize::FromBytes(100 * 1024 * 1024).bytes();
+		options.MaxPacketDataSize = utils::FileSize::FromMegabytes(105).bytes();
 		options.OutgoingProtocols = ionet::IpProtocol::IPv4;
 		options.SslOptions = CreatePacketSocketSslOptions(publicKey);
 		return options;

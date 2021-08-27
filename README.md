@@ -43,7 +43,7 @@ etc.
 
 ## Contributing
 
-Before contributing please [read this](https://github.com/symbol/catapult-client/blob/dev/CONTRIBUTING.md).
+Before contributing please [read this](CONTRIBUTING.md).
 
 ## License
 
@@ -51,9 +51,9 @@ Copyright (c) 2018 Jaguar0625, gimre, BloodyRookie, Tech Bureau, Corp Licensed u
 
 [developer documentation]: https://docs.symbolplatform.com/
 [forum]: https://forum.nem.io/c/announcement
-[issues]: https://github.com/symbol/sdk-java/issues
+[issues]: https://github.com/symbol/sdk-cpp/issues
 [discord]: https://discord.gg/xymcity
-[catapult-client]: https://github.com/symbol/sdk-cpp
+[catapult-client]: https://github.com/symbol/catapult-client
 [symbol-rest]: https://github.com/symbol/catapult-rest
 [nem]: https://nem.io
 [symbol]: https://symbolplatform.com/

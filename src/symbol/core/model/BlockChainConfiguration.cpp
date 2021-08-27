@@ -21,7 +21,6 @@
 
 #include "BlockChainConfiguration.h"
 #include "Address.h"
-//#include "symbol/core/utils/ConfigurationBag.h"
 #include "symbol/core/utils/ConfigurationUtils.h"
 
 DEFINE_ADDRESS_CONFIGURATION_VALUE_SUPPORT

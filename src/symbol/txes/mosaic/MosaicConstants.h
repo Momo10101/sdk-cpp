@@ -20,4 +20,11 @@
 **/
 
 #pragma once
-#include "types.h"
+#include "symbol/types.h"
+
+namespace catapult {
+
+	/// Mosaic nonce.
+	struct MosaicNonce_tag {};
+	using MosaicNonce = utils::BaseValue<uint32_t, MosaicNonce_tag>;
+}

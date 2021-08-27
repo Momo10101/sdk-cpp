@@ -20,5 +20,17 @@
 **/
 
 #pragma once
-#include "constants.h"
-#include "types.h"
+#include "symbol/types.h"
+
+namespace catapult {
+
+	/// Namespace identifier.
+	struct NamespaceId_tag {};
+	using NamespaceId = utils::BaseValue<uint64_t, NamespaceId_tag>;
+
+	/// Base id for namespaces.
+	constexpr NamespaceId Namespace_Base_Id(0);
+}
+
+
+

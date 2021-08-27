@@ -20,7 +20,7 @@
 **/
 
 #include "symbol/extended/extensions/MemoryStream.h"
-#include "tests/shared/core/StreamTests.h"
+#include "tests/symbol/core/io/test/StreamTests.h"
 #include "tests/TestHarness.h"
 
 namespace catapult { namespace extensions {
