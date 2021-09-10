@@ -20,7 +20,7 @@
 **/
 
 #pragma once
-#include "symbol/txes/namespace/types.h"
+#include "symbol/types.h"
 #include <vector>
 
 namespace catapult { namespace model {

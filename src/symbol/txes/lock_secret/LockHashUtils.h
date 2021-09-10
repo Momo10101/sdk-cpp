@@ -21,7 +21,7 @@
 
 #pragma once
 #include "LockHashAlgorithm.h"
-#include "catapult/types.h"
+#include "symbol/types.h"
 
 namespace catapult { namespace model {
 
